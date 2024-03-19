@@ -19,10 +19,16 @@ def tokenize_function(examples):
     return tokenizer(examples["text"], truncation=True, padding='max_length', max_length=max_length)
 
 modelName = "microsoft/phi-2"
-dataset = load_dataset("flytech/python-codes-25k")
+dataset = load_dataset("flytech/python-codes-25k", split='train').train_test_split(test_size=0.001,train_size=100)
 
 tokenizer = AutoTokenizer.from_pretrained(modelName, trust_remote_code=True, torch_dtype=torch.float32)
 tokenized_datasets = dataset.map(tokenize_function, batched=True)
+
+
+
+print(dataset)
+
+
 
 model = AutoModelForCausalLM.from_pretrained(modelName, trust_remote_code=True, torch_dtype=torch.float32)
 # model = AutoModelForCausalLM.from_pretrained(modelName, torch_dtype="auto", trust_remote_code=True, torch_dtype=torch.float32)
@@ -33,7 +39,7 @@ trainer = Trainer(
     model=model,
     args=training_args,
     train_dataset=tokenized_datasets["train"],
-    eval_dataset=tokenized_datasets["train"],
+    eval_dataset=tokenized_datasets["test"],
     compute_metrics=compute_metrics,
 )
 
