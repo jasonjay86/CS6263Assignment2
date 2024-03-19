@@ -2,7 +2,7 @@ from datasets import load_dataset
 from transformers import AutoTokenizer
 from transformers import AutoModelForSequenceClassification
 from transformers import AutoModelForCausalLM, AutoTokenizer
-from transformers import TrainingArguments
+from transformers import TrainingArguments, Trainer
 import numpy as np
 import evaluate
 
