@@ -55,8 +55,8 @@ tokenizer.pad_token = tokenizer.eos_token
 
 training_arguments = TrainingArguments(
     output_dir="./results",
-    per_device_train_batch_size=1,
-    per_device_eval_batch_size=1,
+    per_device_train_batch_size=10,
+    per_device_eval_batch_size=10,
     prediction_loss_only=True,
     # gradient_accumulation_steps=4,
     # optim="paged_adamw_32bit",
@@ -83,10 +83,12 @@ trainer = SFTTrainer(
     eval_dataset=dataset["test"],
     # peft_config=peft_config,
     dataset_text_field="text",
-    max_seq_length=512,
+    max_seq_length=2048,
     tokenizer=tokenizer,
     args=training_arguments,
     packing=False,
 )
 
 trainer.train()
+
+trainer.save_model("./results")
