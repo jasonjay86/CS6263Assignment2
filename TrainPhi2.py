@@ -44,7 +44,14 @@ model.config.pretraining_tp = 1
 peft_config = LoraConfig(
     r=32,
     lora_alpha=16,
-    target_modules="all-linear",
+    target_modules=[
+    'q_proj',
+    'k_proj',
+    'v_proj',
+    'dense',
+    'fc1',
+    'fc2',
+    ],#"all-linear",
     bias="none",
     lora_dropout=0.05, # Conventional
     task_type="CAUSAL_LM",
@@ -55,8 +62,8 @@ tokenizer.pad_token = tokenizer.eos_token
 
 training_arguments = TrainingArguments(
     output_dir="./results",
-    per_device_train_batch_size=10,
-    per_device_eval_batch_size=10,
+    per_device_train_batch_size=2,
+    per_device_eval_batch_size=2,
     prediction_loss_only=True,
     # gradient_accumulation_steps=4,
     # optim="paged_adamw_32bit",
@@ -91,4 +98,4 @@ trainer = SFTTrainer(
 
 trainer.train()
 
-trainer.save_model("./FTPhi2")
+trainer.save_model("./FTPhi2_dev")
