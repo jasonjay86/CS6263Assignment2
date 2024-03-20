@@ -74,7 +74,7 @@ training_arguments = TrainingArguments(
 
 model.config.use_cache = False
 
-dataset = load_dataset("flytech/python-codes-25k", split='train').train_test_split(test_size=10,train_size=100)
+dataset = load_dataset("flytech/python-codes-25k", split='train').train_test_split(test_size=.05,train_size=.5)
 
 trainer = SFTTrainer(
     model=model,
@@ -91,4 +91,4 @@ trainer = SFTTrainer(
 
 trainer.train()
 
-trainer.save_model("./results")
+trainer.save_model("./FTPhi2")
