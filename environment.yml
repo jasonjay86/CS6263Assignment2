@@ -3,12 +3,13 @@ channels:
   - huggingface
   - pytorch
   - nvidia
-  - defaults
   - conda-forge
+  - defaults
 dependencies:
   - _libgcc_mutex=0.1=conda_forge
   - _openmp_mutex=4.5=2_gnu
   - abseil-cpp=20211102.0=h27087fc_1
+  - accelerate=0.28.0=pyhd8ed1ab_0
   - aiohttp=3.9.3=py312h5eee18b_0
   - aiosignal=1.3.1=pyhd8ed1ab_0
   - arrow=1.2.3=py312h06a4308_1
@@ -28,6 +29,7 @@ dependencies:
   - aws-crt-cpp=0.18.16=h6a678d5_0
   - aws-sdk-cpp=1.10.55=h721c034_0
   - binaryornot=0.4.4=pyhd3eb1b0_1
+  - bitsandbytes=0.43.0=py312hd537766_0
   - blas=1.0=mkl
   - boost-cpp=1.78.0=he72f1d9_0
   - boto3=1.34.64=pyhd8ed1ab_0
@@ -37,7 +39,7 @@ dependencies:
   - bzip2=1.0.8=h5eee18b_5
   - c-ares=1.27.0=hd590300_0
   - ca-certificates=2024.3.11=h06a4308_0
-  - certifi=2024.2.2=py312h06a4308_0
+  - certifi=2024.2.2=pyhd8ed1ab_0
   - chardet=4.0.0=py312h06a4308_1003
   - charset-normalizer=2.0.4=pyhd3eb1b0_0
   - click=8.1.7=py312h06a4308_0
@@ -78,9 +80,11 @@ dependencies:
   - lcms2=2.12=h3be6417_0
   - ld_impl_linux-64=2.38=h1181459_1
   - lerc=3.0=h295c915_0
+  - libblas=3.9.0=1_h86c2bf4_netlib
   - libbrotlicommon=1.0.9=h166bdaf_9
   - libbrotlidec=1.0.9=h166bdaf_9
   - libbrotlienc=1.0.9=h166bdaf_9
+  - libcblas=3.9.0=5_h92ddd45_netlib
   - libcublas=11.11.3.6=0
   - libcufft=10.9.0.58=0
   - libcufile=1.9.0.20=0
@@ -95,10 +99,13 @@ dependencies:
   - libexpat=2.5.0=hcb278e6_1
   - libffi=3.4.4=h6a678d5_0
   - libgcc-ng=13.2.0=h807b86a_5
+  - libgfortran-ng=13.2.0=h69a702a_5
+  - libgfortran5=13.2.0=ha4646dd_5
   - libgomp=13.2.0=h807b86a_5
   - libiconv=1.16=h7f8727e_2
   - libidn2=2.3.4=h5eee18b_0
   - libjpeg-turbo=2.0.0=h9bf148f_0
+  - liblapack=3.9.0=5_h92ddd45_netlib
   - libnghttp2=1.57.0=h2d74bed_0
   - libnpp=11.8.0.86=0
   - libnsl=2.0.1=hd590300_0
@@ -134,13 +141,15 @@ dependencies:
   - numpy-base=1.26.4=py312h0da6c21_0
   - openh264=2.1.1=h4ff587b_0
   - openjpeg=2.4.0=h3ad879b_0
-  - openssl=3.2.1=hd590300_0
+  - openssl=3.2.1=hd590300_1
   - orc=1.7.4=hb3bc3d3_1
   - packaging=24.0=pyhd8ed1ab_0
   - pandas=2.2.1=py312h526ad5a_0
+  - peft=0.9.0=pyhd8ed1ab_0
   - pillow=10.2.0=py312h5eee18b_0
   - pip=23.3.1=py312h06a4308_0
   - poyo=0.5.0=pyhd3eb1b0_0
+  - psutil=5.9.8=py312h98912ed_0
   - pyarrow=14.0.2=py312hb107042_0
   - pyarrow-hotfix=0.6=pyhd8ed1ab_0
   - pysocks=1.7.1=py312h06a4308_0
@@ -164,6 +173,7 @@ dependencies:
   - s3transfer=0.10.1=pyhd8ed1ab_0
   - sacremoses=master=py_0
   - safetensors=0.4.2=py312h4b3b743_0
+  - scipy=1.12.0=py312heda63a1_2
   - setuptools=68.2.2=py312h06a4308_0
   - six=1.16.0=pyhd3eb1b0_1
   - snappy=1.1.9=hbd366e4_1
@@ -191,4 +201,13 @@ dependencies:
   - zipp=3.17.0=py312h06a4308_0
   - zlib=1.2.13=hd590300_5
   - zstd=1.5.5=hc292b87_0
+  - pip:
+      - docstring-parser==0.16
+      - markdown-it-py==3.0.0
+      - mdurl==0.1.2
+      - pygments==2.17.2
+      - rich==13.7.1
+      - shtab==1.7.1
+      - trl==0.8.0
+      - tyro==0.7.3
 prefix: /home/gsh998/miniconda3/envs/arc1c
