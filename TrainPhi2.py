@@ -5,7 +5,7 @@ from typing import Optional
 import torch
 from datasets import load_dataset
 from datasets import load_from_disk
-from peft import LoraConfig
+from peft import LoraConfig, get_peft_model
 from transformers import (
     AutoModelForCausalLM,
     AutoTokenizer,
@@ -18,7 +18,9 @@ from tqdm.notebook import tqdm
 
 from trl import SFTTrainer
 from huggingface_hub import interpreter_login
+from accelerate import Accelerator
 
+accelerator = Accelerator()
 # interpreter_login()
 torch.cuda.empty_cache() 
 compute_dtype = getattr(torch, "float16")
@@ -38,7 +40,7 @@ model = AutoModelForCausalLM.from_pretrained(
         trust_remote_code=True,
         # use_auth_token=True
     )
-print (model)
+# print (model)
 model.config.pretraining_tp = 1 
 
 peft_config = LoraConfig(
@@ -56,6 +58,10 @@ peft_config = LoraConfig(
     lora_dropout=0.05, # Conventional
     task_type="CAUSAL_LM",
 )
+
+lora_model = get_peft_model(model, peft_config)
+
+lora_model = accelerator.prepare_model(lora_model)
 
 tokenizer = AutoTokenizer.from_pretrained("microsoft/phi-2", trust_remote_code=True)
 tokenizer.pad_token = tokenizer.eos_token
@@ -79,12 +85,12 @@ training_arguments = TrainingArguments(
     # lr_scheduler_type="constant",
 )
 
-model.config.use_cache = False
+lora_model.config.use_cache = False
 
-dataset = load_dataset("flytech/python-codes-25k", split='train').train_test_split(test_size=.05,train_size=.5)
+dataset = load_dataset("flytech/python-codes-25k", split='train').train_test_split(test_size=.001,train_size=.01)
 
 trainer = SFTTrainer(
-    model=model,
+    model=lora_model,
     # train_dataset=dataset,
     train_dataset=dataset["train"],
     eval_dataset=dataset["test"],
