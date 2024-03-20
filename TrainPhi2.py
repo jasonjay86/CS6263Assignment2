@@ -41,7 +41,9 @@ model = AutoModelForCausalLM.from_pretrained(
         # use_auth_token=True
     )
 # print (model)
-model.config.pretraining_tp = 1 
+model.config.pretraining_tp = 1
+#gradient checkpointing to save memory
+model.gradient_checkpointing_enable()
 
 peft_config = LoraConfig(
     r=32,
