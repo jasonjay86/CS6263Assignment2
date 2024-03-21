@@ -54,8 +54,8 @@ peft_config = LoraConfig(
     'v_proj',
     'o_proj'
     'gate_proj',
-    'up_proj',
-    'down_proj',
+    # 'up_proj',
+    # 'down_proj',
     ],#"all-linear",
     bias="none",
     lora_dropout=0.05, # Conventional
@@ -66,7 +66,7 @@ lora_model = get_peft_model(model, peft_config)
 
 lora_model = accelerator.prepare_model(lora_model)
 
-tokenizer = AutoTokenizer.from_pretrained("microsoft/phi-2", trust_remote_code=True)
+tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-v0.1", trust_remote_code=True)
 tokenizer.pad_token = tokenizer.eos_token
 
 training_arguments = TrainingArguments(
