@@ -16,7 +16,7 @@ modelList = [
 datapath = "flytech/python-codes-25k"
 
 dataset = load_dataset("flytech/python-codes-25k", split='train')
-numInputs = 2
+numInputs = 20
 
 randrows = []
 for i in range(numInputs):
