@@ -20,6 +20,7 @@ from trl import SFTTrainer
 from huggingface_hub import interpreter_login
 from accelerate import Accelerator
 
+modelpath ="meta-llama/Llama-2-7b-hf"
 accelerator = Accelerator()
 interpreter_login()
 torch.cuda.empty_cache() 
@@ -34,14 +35,13 @@ device_map = "auto"
 
 #Download model
 model = AutoModelForCausalLM.from_pretrained(
-        "meta-llama/Llama-2-7b", 
+        modelpath, 
         # quantization_config=bnb_config,
         device_map=device_map,
         trust_remote_code=True,
-        token = "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"#,
-        # use_auth_token=True
+        use_auth_token=True
     )
-# print (model)
+print (model)
 # model.config.pretraining_tp = 1
 # #gradient checkpointing to save memory
 # model.gradient_checkpointing_enable()
