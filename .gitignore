@@ -42,3 +42,10 @@ Mistral/special_tokens_map.json
 Mistral/tokenizer_config.json
 Mistral/tokenizer.json
 Mistral/training_args.bin
+Llama/adapter_config.json
+Llama/adapter_model.safetensors
+Llama/README.md
+Llama/special_tokens_map.json
+Llama/tokenizer_config.json
+Llama/tokenizer.json
+Llama/training_args.bin

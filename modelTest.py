@@ -3,8 +3,8 @@ from transformers import (
      AutoTokenizer)
 from peft import PeftModel, PeftConfig
 
-modelpath = "./Mistral"
-testPrompt = "Edit the following Python program to implement try and except a = 10 b = 0 c = a/b"
+modelpath = "./Llama"
+testPrompt = "Develop a Python code to generate the nth number in the Fibonacci series n = 8"
 model = AutoModelForCausalLM.from_pretrained(modelpath)
 model = PeftModel.from_pretrained(model, modelpath)
 # model = AutoModelForCausalLM.from_pretrained(modelpath)
