@@ -3,10 +3,10 @@ from transformers import (
      AutoTokenizer)
 from peft import PeftModel, PeftConfig
 
-modelpath = "./Llama"
+modelpath = "microsoft/phi-2"
 testPrompt = "Develop a Python code to generate the nth number in the Fibonacci series n = 8"
 model = AutoModelForCausalLM.from_pretrained(modelpath)
-model = PeftModel.from_pretrained(model, modelpath)
+# model = PeftModel.from_pretrained(model, modelpath)
 # model = AutoModelForCausalLM.from_pretrained(modelpath)
 tokenizer = AutoTokenizer.from_pretrained(modelpath)
 
