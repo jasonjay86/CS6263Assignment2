@@ -41,7 +41,7 @@ modelList = [
 ]
 
 outputType = [
-    "vanilla",
+    # "vanilla",
     "topK",
     "beam",
     "temp"
@@ -85,8 +85,6 @@ for modelpath in modelList:
     model = PeftModel.from_pretrained(model, modelpath)
     tokenizer = AutoTokenizer.from_pretrained(modelpath)
 
-    
-
     for hparam in outputType:
         sizes = []
         if hparam == "vanilla":
@@ -102,6 +100,7 @@ for modelpath in modelList:
             referencelist = []
             predictionlist = []
             for i in range(numInputs):
+                print("Getting output for: " + str(modelpath)+ "... output type: "+ str(hparam)+ " size = "+ str(size) + "...Instruction:" + str(i+1))
                 testPrompt = dataset[i]["instruction"]
                 
                 text = getOutput(tokenizer,model,testPrompt,hparam,size)
