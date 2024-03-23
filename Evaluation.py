@@ -35,8 +35,8 @@ def getOutput(tokenizer,model,testPrompt,hparam,size=0):
 
 
 modelList = [
-    "./Llama"#,
-    # "./FTPhi2_dev",
+    "./Llama",
+    "./FTPhi2_dev",
     # "./Mistral"
 ]
 
@@ -48,30 +48,30 @@ outputType = [
 ]
 
 topKsize = [
-    # 2,
-    # 4,
-    # 6,
+    2,
+    4,
+    6,
     8
 ]
 
 beamsize = [
-    # 2,
-    # 3,
-    # 5,
-    25
+    2,
+    3,
+    4,
+    5
 ]
 
 tempSize = [
-    # .1,
-    # .25,
-    # .5,
+    .1,
+    .25,
+    .5,
     .75
 ]
 
 datapath = "flytech/python-codes-25k"
 
 dataset = load_dataset("flytech/python-codes-25k", split='train')
-numInputs = 1
+numInputs = 20
 
 randrows = []
 for i in range(numInputs):
@@ -90,13 +90,13 @@ for modelpath in modelList:
     for hparam in outputType:
         sizes = []
         if hparam == "vanilla":
-            sizes = 1
+            sizes = [1]
         elif hparam == "topK":
-            sizes = topKsize
+            sizes = topKsize.copy()
         elif hparam == "beam":
-            sizes == beamsize
+            sizes = beamsize.copy()
         elif hparam == "temp":
-            sizes == tempSize
+            sizes = tempSize.copy()
 
         for size in sizes:
             referencelist = []
@@ -109,7 +109,7 @@ for modelpath in modelList:
                 referencelist.append(dataset[i]["output"])
                 predictionlist.append(text)
             
-            print("Results for " + str(modelpath)+ "... output type: "+ str(hparam)+ "size = "+ size)
+            print("Results for " + str(modelpath)+ "... output type: "+ str(hparam)+ " size = "+ str(size))
             print('-' * 80)
             ##codebleu##
             codebleuResult = calc_codebleu(referencelist, predictionlist, lang="python", weights=(0.25, 0.25, 0.25, 0.25), tokenizer=None)
@@ -126,7 +126,7 @@ for modelpath in modelList:
             print('-' * 80)
             print("")
 
-            print("For Human Evaluation on : " + str(modelpath))
+            print("For Human Evaluation on : " + str(modelpath)+ "... output type: "+ str(hparam)+ " size = "+ str(size))
             for i in range(numInputs):
                 print("Instruction " + str(i))
                 
