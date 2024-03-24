@@ -7633,7 +7633,7 @@ def greet_to(name):
     print("Hello, " + name + "!")
 
 def say_goodbye(name):
-    """Print a goodbye to the name provided
+    """Print a goodbye to the name provided"""
 --------------------------------------------------------------------------------
 Instruction 11
 Create a Python program for analyzing Twitter data. The program should accept a password (or token) as input and should display the Tweet count and detailed sentiment analysis of each tweet
@@ -9474,7 +9474,7 @@ greet_from("John")
 # Executing code.
 ```python
 def greet_to(name):
-    """Print a greeting to the
+    """Print a greeting to the"""
 --------------------------------------------------------------------------------
 Instruction 11
 Create a Python program for analyzing Twitter data. The program should accept a password (or token) as input and should display the Tweet count and detailed sentiment analysis of each tweet
@@ -9586,7 +9586,7 @@ def remove_case(string):
 def remove_symbols(string):
     """Remove symbols from a string.
 
-    Args
+    Args"""
 --------------------------------------------------------------------------------
 Instruction 13
 Optimize a given Python function to run faster def lower_string(string):
