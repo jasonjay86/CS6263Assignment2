@@ -35,7 +35,9 @@ Run `Evaluation.py` with
 
 `python Evaluation.py`
 
-**Please see metrics tables and task discussions below**
+**Please see metrics tables and task discussions below:**
+
+---
 
 ## Task 2
 ![image](https://github.com/jasonjay86/CS6263Assignment1C/assets/65077765/30b5b9fb-736f-43f0-8fd0-26e58f8f736f)
@@ -45,5 +47,6 @@ Mistral and Phi-2 edgeds out Llama in most metrics.  Phi-2 performed especially 
 
 ## Task 3
 ![image](https://github.com/jasonjay86/CS6263Assignment1C/assets/65077765/ee2ceeed-5807-43b5-b164-696956a2235e)![image](https://github.com/jasonjay86/CS6263Assignment1C/assets/65077765/19beecaa-94de-49a4-92ea-2c8afe2cc77b)
+
 **Write another discussion explaining the how the hyperparameters effect on the different metrics of LLaMA and Phi-2 (4-5 Lines).**
 Increasing the top_k parameter appears to increase the human evaluation scores for each model.  Thi i likely because it opens up the model to select from a larger smapling of next tokens.  Increasing this value further may improve scores even higher.  Increasing the beam size hyperparameter also appears to raise scores across the board for every metric except for the human evaluation.  This may be do the algorithmic metrics focusing on matching the reference texts while human evaluation values working code.  Finally Temparature seems to worsen the outputs as it increases.  There appears to be a "sweet spot" .25 and .5.  Having temperature too high opens the door for low probability tokens that may be the difference between code that compiles and code that does not.
