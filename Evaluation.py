@@ -35,15 +35,15 @@ def getOutput(tokenizer,model,testPrompt,hparam,size=0):
 
 
 modelList = [
-    "./Llama",
-    # "./FTPhi2_dev",
+    # "./Llama",
+    "./FTPhi2_dev",
     # "./Mistral"
 ]
 
 outputType = [
     # "vanilla",
-    # "topK",
-    # "beam",
+    "topK",
+    "beam",
     "temp"
 ]
 
@@ -62,7 +62,7 @@ beamsize = [
 ]
 
 tempSize = [
-    # .1,
+    .1,
     .25,
     .5,
     .75
