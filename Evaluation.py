@@ -1,6 +1,3 @@
-from transformers import (
-    AutoModelForCausalLM,
-     AutoTokenizer)
 from peft import PeftModel, PeftConfig
 from datasets import load_dataset
 import random
@@ -8,22 +5,30 @@ from codebleu import calc_codebleu
 from rouge import Rouge
 from bert_score import score
 
+from transformers import (
+    AutoModelForCausalLM,
+     AutoTokenizer)
+
 def getOutput(tokenizer,model,testPrompt,hparam,size=0):
     input = tokenizer(testPrompt, return_tensors="pt").input_ids
 
     if hparam == "vanilla":
+        # Generate output using vanilla decoding
         outputs = model.generate(input, max_length = 450)
     elif hparam == "topK":
+        # Generate output using top-K sampling
         outputs = model.generate(input,
                                  max_length = 450,
                                  do_sample=True,
                                  top_k=size)
     elif hparam == "beam":
+        # Generate output using beam search
         outputs = model.generate(input,
                                  max_length = 450,
                                  num_beams=size,
                                  early_stopping=True)
     elif hparam == "temp":
+         # Generate output using temperature sampling
          outputs = model.generate(input,
                                  max_length = 450,
                                  do_sample=True,
@@ -70,6 +75,7 @@ tempSize = [
 
 datapath = "flytech/python-codes-25k"
 
+# Load dataset
 dataset = load_dataset("flytech/python-codes-25k", split='train')
 numInputs = 20
 
@@ -77,10 +83,11 @@ randrows = []
 for i in range(numInputs):
     randrows.append(random.randint(0,len(dataset)))
 
-
+# Select random rows from the dataset
 dataset = dataset.select(randrows)
-# print(dataset[0])
+
 for modelpath in modelList:
+    # Load model and tokenizer
     model = AutoModelForCausalLM.from_pretrained(modelpath)
     model = PeftModel.from_pretrained(model, modelpath)
     tokenizer = AutoTokenizer.from_pretrained(modelpath)
@@ -134,5 +141,3 @@ for modelpath in modelList:
                 print(str(modelpath) + " output:")
                 print(predictionlist[i])
                 print('-' * 80)
-
-
