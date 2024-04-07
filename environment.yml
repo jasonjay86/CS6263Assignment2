@@ -1,4 +1,4 @@
-name: arc1c
+name: arc2
 channels:
   - huggingface
   - pytorch
