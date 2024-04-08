@@ -29,7 +29,7 @@ device_map = "auto"
 max_seq_length = 2048 # Supports RoPE Scaling interally, so choose any!
 # Download model
 model, tokenizer = FastLanguageModel.from_pretrained(
-    model_name = "unsloth/mistral-7b-bnb-4bit", # Supports Llama, Mistral - replace this!
+    model_name = "mistralai/Mistral-7B-v0.1", # Supports Llama, Mistral - replace this!
     max_seq_length = max_seq_length,
     dtype = None,
     load_in_4bit = True,
