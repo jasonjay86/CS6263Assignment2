@@ -5,7 +5,7 @@ from transformers import (
 # from peft import PeftModel, PeftConfig
 
 modelpath = "./Mistral"
-testPrompt = "Write a program to impress my daughter"
+testPrompt = "Can you design a Python program that evaluates the following formula? \"2*x + 4*y - z = 10\""
 
 model = AutoModelForCausalLM.from_pretrained(modelpath, device_map="auto")
 # model = PeftModel.from_pretrained(model, modelpath)
