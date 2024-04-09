@@ -1,6 +1,6 @@
 ---
 library_name: peft
-base_model: mistralai/Mistral-7B-v0.1
+base_model: unsloth/mistral-7b-bnb-4bit
 ---
 
 # Model Card for Model ID
@@ -199,4 +199,4 @@ Carbon emissions can be estimated using the [Machine Learning Impact calculator]
 [More Information Needed]
 ### Framework versions
 
-- PEFT 0.9.0
+- PEFT 0.10.0

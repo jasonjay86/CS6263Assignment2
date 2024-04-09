@@ -23,7 +23,7 @@ accelerator = Accelerator()
 
 torch.cuda.empty_cache() 
 
-compute_dtype = getattr(torch, "float16")
+# compute_dtype = getattr(torch, "float16")
 
 device_map = "auto"
 max_seq_length = 2048 # Supports RoPE Scaling interally, so choose any!
@@ -37,10 +37,10 @@ model, tokenizer = FastLanguageModel.from_pretrained(
 
 print(model)
 
-model.config.pretraining_tp = 1
+# model.config.pretraining_tp = 1
 
 # Enable gradient checkpointing to save memory
-model.gradient_checkpointing_enable()
+# model.gradient_checkpointing_enable()
 
 # Do model patching and add fast LoRA weights
 model = FastLanguageModel.get_peft_model(
@@ -92,26 +92,28 @@ model = FastLanguageModel.get_peft_model(
 # lora_model.config.use_cache = False
 
 # Load the dataset
-dataset = load_dataset("flytech/python-codes-25k", split='train').train_test_split(test_size=.001, train_size=.01)
+dataset = load_dataset("flytech/python-codes-25k", split='train').train_test_split(test_size=.8, train_size=.2)
 
 # Create the trainer
 trainer = SFTTrainer(
     model = model,
-    train_dataset = dataset,
+    # train_dataset = dataset,
+    train_dataset=dataset["train"],
+    eval_dataset=dataset["test"],
     dataset_text_field = "text",
     max_seq_length = max_seq_length,
     tokenizer = tokenizer,
     args = TrainingArguments(
         per_device_train_batch_size = 2,
         gradient_accumulation_steps = 4,
-        warmup_steps = 10,
-        max_steps = 60,
+        warmup_steps = 5,
+        max_steps = 1000,
         fp16 = not torch.cuda.is_bf16_supported(),
         bf16 = torch.cuda.is_bf16_supported(),
-        logging_steps = 1,
+        logging_steps = 100,
         output_dir = "outputs",
         optim = "adamw_8bit",
-        seed = 3407,
+        seed = 1222,
     ),
 )
 
