@@ -46,6 +46,7 @@ class DoLa:
         model = AutoModelForCausalLM.from_pretrained(model_name,
             low_cpu_mem_usage=True, **kwargs)
 
+        print("model_name = ",model_name)
         # if self.device == "cuda" and self.num_gpus == 1:
         #     # model.cuda()
         
