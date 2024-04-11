@@ -29,7 +29,7 @@ device_map = "auto"
 max_seq_length = 2048 # Supports RoPE Scaling interally, so choose any!
 # Download model
 model, tokenizer = FastLanguageModel.from_pretrained(
-    model_name = "mistralai/Mistral-7B-v0.1", # Supports Llama, Mistral - replace this!
+    model_name = "meta-llama/Llama-2-7b-hf", # Supports Llama, Mistral - replace this!
     max_seq_length = max_seq_length,
     dtype = None,
     load_in_4bit = True,
@@ -107,7 +107,7 @@ trainer = SFTTrainer(
         per_device_train_batch_size = 2,
         gradient_accumulation_steps = 4,
         warmup_steps = 5,
-        max_steps = 1000,
+        # max_steps = 1000,
         fp16 = not torch.cuda.is_bf16_supported(),
         bf16 = torch.cuda.is_bf16_supported(),
         logging_steps = 100,
@@ -121,4 +121,4 @@ trainer = SFTTrainer(
 trainer.train()
 
 # Save the trained model
-trainer.save_model("./Mistral")
+trainer.save_model("./Llama")
