@@ -4,7 +4,7 @@ from transformers import (
      pipeline)
 # from peft import PeftModel, PeftConfig
 
-modelpath = "./Mistral"
+modelpath = "./Llama"
 testPrompt = "Can you design a Python program that evaluates the following formula? \"2*x + 4*y - z = 10\""
 
 model = AutoModelForCausalLM.from_pretrained(modelpath, device_map="auto")
