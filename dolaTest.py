@@ -12,7 +12,7 @@ import torch
 import numpy as np
 import matplotlib.pyplot as plt
 
-layernum = "8"
+layernum = 32
 modelpath = "./Llama"
 tokenizer = AutoTokenizer.from_pretrained(modelpath)
 model = AutoModelForCausalLM.from_pretrained(modelpath)
@@ -62,6 +62,7 @@ input_length = 1 if model.config.is_encoder_decoder else input_ids.shape[1]
 generated_tokens = outputs.sequences[:, input_length:]
 tokens= []
 probabilities=[]
+
 for tok, score in zip(generated_tokens[0], transition_scores[0]):
     # | token | token string | log probability | probability
     # print(f"| {tokenizer.decode(tok):8s} | {np.exp(score.cpu().numpy()):.2%}")
