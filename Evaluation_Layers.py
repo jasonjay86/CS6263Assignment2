@@ -19,7 +19,7 @@ from transformers import (
 
 def getOutput(tokenizer,model,testPrompt,hparam,size=0):
     input = tokenizer(testPrompt, return_tensors="pt").input_ids
-
+    input = input.to('cuda')
     if hparam == "vanilla":
         # Generate output using vanilla decoding
         outputs = model.generate(input, max_length = 450)
@@ -121,7 +121,7 @@ datapath = "flytech/python-codes-25k"
 
 # Load dataset
 dataset = load_dataset("flytech/python-codes-25k", split='train')
-numInputs = 1
+numInputs = 50
 
 randrows = []
 for i in range(numInputs):
@@ -179,7 +179,14 @@ for modelpath in modelList:
             print("")
 
             print("For Human Evaluation on : " + str(modelpath)+ "... output type: "+ str(hparam)+ " size = "+ str(size))
-            for i in range(numInputs):
+            
+            #only need 20 for human evaluation
+            if numInputs > 20:
+                numHumanEval = 20
+            else:
+                numHumanEval = numInputs
+
+            for i in range(numHumanEval):
                 print("Instruction " + str(i))
                 
                 print(dataset[i]["instruction"])
