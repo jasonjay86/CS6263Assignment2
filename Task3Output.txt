@@ -1,0 +1,2169 @@
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:1
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:2
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:3
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:4
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:5
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:6
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:7
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:8
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:9
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:10
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:11
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:12
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:13
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:14
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:15
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:16
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:17
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:18
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:19
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:20
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:21
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:22
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:23
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:24
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:25
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:26
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:27
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:28
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:29
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:30
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:31
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:32
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:33
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:34
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:35
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:36
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:37
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:38
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:39
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:40
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:41
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:42
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:43
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:44
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:45
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:46
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:47
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:48
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:49
+Getting output for: ./Llama... output type: vanilla size = 1...Instruction:50
+Results for ./Llama... output type: vanilla size = 1
+--------------------------------------------------------------------------------
+CodeBleu Scrore: 0.3456865697778208
+Rouge-L score: {'r': 0.4948354004874681, 'p': 0.21112763424604433, 'f': 0.2704052889136458}
+calculating scores...
+computing bert embedding.
+computing greedy matching.
+done in 1.68 seconds, 29.75 sentences/sec
+BERTScore:
+tensor([0.8123, 0.8013, 0.8186, 0.8248, 0.7734, 0.8367, 0.8284, 0.8450, 0.8188,
+        0.8151, 0.7492, 0.7892, 0.8165, 0.8171, 0.8650, 0.7732, 0.8111, 0.8116,
+        0.8262, 0.8423, 0.8121, 0.7989, 0.8050, 0.8135, 0.7933, 0.8432, 0.8035,
+        0.9180, 0.8747, 0.8460, 0.8828, 0.7434, 0.8032, 0.8371, 0.7767, 0.7237,
+        0.8365, 0.8155, 0.8012, 0.7646, 0.8359, 0.8297, 0.7701, 0.7956, 0.7828,
+        0.7941, 0.7628, 0.7785, 0.7829, 0.8158]) tensor([0.7331, 0.8396, 0.8664, 0.9472, 0.8329, 0.8674, 0.8508, 0.9378, 0.8396,
+        0.8682, 0.8457, 0.8854, 0.8978, 0.9326, 0.8979, 0.8504, 0.8986, 0.8942,
+        0.8872, 0.8836, 0.8653, 0.8782, 0.8771, 0.9011, 0.8643, 0.8839, 0.8331,
+        0.9417, 0.9041, 0.8500, 0.9200, 0.9267, 0.8909, 0.8762, 0.7995, 0.8876,
+        0.9399, 0.8480, 0.9122, 0.8759, 0.9516, 0.8647, 0.8773, 0.8760, 0.8621,
+        0.8440, 0.7911, 0.8884, 0.8401, 0.8986]) tensor([0.7706, 0.8200, 0.8418, 0.8818, 0.8020, 0.8518, 0.8395, 0.8890, 0.8291,
+        0.8408, 0.7945, 0.8345, 0.8552, 0.8710, 0.8811, 0.8099, 0.8526, 0.8509,
+        0.8556, 0.8624, 0.8379, 0.8367, 0.8395, 0.8551, 0.8273, 0.8630, 0.8181,
+        0.9297, 0.8891, 0.8480, 0.9010, 0.8250, 0.8448, 0.8562, 0.7880, 0.7973,
+        0.8852, 0.8314, 0.8531, 0.8165, 0.8900, 0.8468, 0.8202, 0.8339, 0.8205,
+        0.8183, 0.7767, 0.8298, 0.8105, 0.8552])
+--------------------------------------------------------------------------------
+
+For Human Evaluation on : ./Llama... output type: vanilla size = 1
+Instruction 0
+Write a python program to create a connection to a given database Database Name: test
+Username: admin
+Password: admin123
+***
+./Llama output:
+Write a python program to create a connection to a given database Database Name: test
+Username: admin
+Password: admin123
+Database Server: localhost
+Table: users
+
+Table fields:
+id (integer, primary key)
+name (string)
+email (string)
+Setting things in motion! Here we go! ```python
+import sqlite3
+
+# Connect to the database
+conn = sqlite3.connect('test.db')
+
+# Create a cursor object
+cursor = conn.cursor()
+
+# Execute a SQL statement
+cursor.execute('CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT, email TEXT)')
+
+# Commit the changes
+conn.commit()
+
+# Close the connection
+conn.close()
+```
+
+This Python program connects to the database test.db, creates a table called users, and creates the table fields. It also creates a primary key on the table and commits the changes. Finally, it closes the connection.
+
+Note: You'll need to replace 'test.db' with the name of your actual database file and replace 'admin' and 'admin123' with your actual database username and password.
+
+In this example, we used the sqlite3 library to connect to the database. Other libraries like MySQL, PostgreSQL, and MongoDB may have different steps to connect to a database.
+
+This Python code will create a connection to a given database, create a table, and create table fields. It does not create any data in the table. To do that, you would need to write SQL statements to insert data into the table.
+
+Hope this helps!
+```python
+import sqlite3
+
+# Connect to the database
+conn = sqlite3.connect('test.db')
+
+# Create a cursor object
+cursor = conn.cursor()
+
+# Execute a SQL statement
+cursor.execute('CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT, email TEXT)')
+
+# Commit the changes
+conn.commit()
+
+# Close
+--------------------------------------------------------------------------------
+Instruction 1
+Suggest an algorithm to sort a list of objects in Python by their age, when the attribute ?age? is optional
+***
+./Llama output:
+Suggest an algorithm to sort a list of objects in Python by their age, when the attribute ?age? is optional [
+    {'name': 'John', 'age': None},
+    {'name': 'Jack', 'age': 10},
+    {'name': 'Jill', 'age': 20},
+    {'name': 'Joe', 'age': 30},
+] Let's get it started in here! The party's begun! ```python
+def sort_by_age(lst):
+    return sorted(lst, key=lambda x: x['age'])
+```
+This function takes a list of dictionaries as input and sorts them by age. If a dictionary does not have an age attribute, it is ignored. The function returns a sorted list of dictionaries.
+
+In Python, the `sorted()` function can take a key function as an argument to sort the elements of a list by a specified key. The `key` function is a lambda expression that takes a dictionary as an argument and returns the age value of the dictionary. If the age is not present, it is ignored.
+
+The function `lambda x: x['age']` returns the age value of the dictionary. If the dictionary does not have an age attribute, it is ignored. The `sorted()` function sorts the list of dictionaries by the age value and returns the sorted list.
+
+The `sort_by_age()` function is a simple implementation of this algorithm.
+```python
+lst = [
+    {'name': 'John', 'age': None},
+    {'name': 'Jack', 'age': 10},
+    {'name': 'Jill', 'age': 20},
+    {'name': 'Joe', 'age': 30},
+]
+sorted_lst = sort_by_age(lst)
+print(sorted_lst)
+```
+Output:
+[{'name': 'Joe', 'age': 30},
+ {'name': 'Jack', 'age': 10},
+ {'name': 'Jill', 'age
+--------------------------------------------------------------------------------
+Instruction 2
+Design an algorithm in Python which performs clustering by taking two features from a dataset as inputs A pandas Dataframe containing features 'age' and 'height'
+***
+./Llama output:
+Design an algorithm in Python which performs clustering by taking two features from a dataset as inputs A pandas Dataframe containing features 'age' and 'height' Revving up! We're gaining speed! ```python
+import pandas as pd
+from sklearn.cluster import KMeans
+
+def perform_clustering(df, features):
+    X = df[features].values
+    kmeans = KMeans(n_clusters=2).fit(X)
+    labels = kmeans.labels_
+    return labels
+```
+
+In this code snippet, we first import the pandas library and the KMeans algorithm from the sklearn library. We then define a function that takes in a dataframe and a list of features as input. The function then uses the KMeans algorithm to cluster the data based on the features. Finally, it returns the labels of the clusters.
+
+In the function, we create a DataFrame from the input dataframe, and then extract the features from the DataFrame using the .values() method. We then fit the KMeans algorithm on the extracted features using the .fit() method. Finally, we return the labels of the clusters using the .labels_ attribute of the KMeans object.
+
+The function can be used to cluster data based on any two features provided as input. It can be modified to use different clustering algorithms or to cluster data based on more than two features.
+
+In this code snippet, the function performs clustering based on the age and height features. However, the function can be modified to perform clustering based on any other features provided as input.
+
+In the function, we use the KMeans algorithm to cluster the data. However, other clustering algorithms can be used as well. The function can be modified to use different clustering algorithms depending on the requirements.
+
+Finally, the function returns the labels of the clusters. These labels can be used to group the data points into different clusters.
+
+In summary, this code snippet demonstrates how to perform clustering using the KMeans algorithm in Python. The function takes in a dataframe and
+--------------------------------------------------------------------------------
+Instruction 3
+Edit the following Python class such that it can accept a variable number of parameters class Person:
+    def __init__(self, name, age, weight):
+        self.name = name
+        self.age = age
+        self.weight = weight
+***
+./Llama output:
+Edit the following Python class such that it can accept a variable number of parameters class Person:
+    def __init__(self, name, age, weight):
+        self.name = name
+        self.age = age
+        self.weight = weight Easy peasy! Simplicity is key! ```python
+class Person:
+    def __init__(self, *args):
+        self.name = args[0]
+        self.age = args[1]
+        self.weight = args[2]
+```
+```python
+person = Person('John', 25, 70)
+```
+```python
+person.name # returns 'John'
+person.age # returns 25
+person.weight # returns 70
+```
+```python
+person = Person('John', 25, 70, 'Jane', 28, 60)
+```
+```python
+person.name # returns 'John'
+person.age # returns 25
+person.weight # returns 70
+person.name # returns 'Jane'
+person.age # returns 28
+person.weight # returns 60
+```
+```python
+person.name # returns 'John'
+person.age # returns 25
+person.weight # returns 70
+person.name # returns 'Jane'
+person.age # returns 28
+person.weight # returns 60
+```
+```python
+person = Person('John', 25, 70, 'Jane', 28, 60, 'Bob', 23, 80)
+```
+```python
+person.name # returns 'John'
+person.age # returns 25
+person.weight # returns 70
+person.name # returns 'Jane'
+person.age # returns 28
+person.weight # returns 60
+person.name # returns 'Bob'
+person.age # returns 23
+person.weight # returns 80
+person.name
+--------------------------------------------------------------------------------
+Instruction 4
+Add type annotations to function arguments
+***
+./Llama output:
+Add type annotations to function arguments Adding type annotations to the following Python function... def my_function(x, y):
+    return x + y You got it, boss! Your wish is my command! ```python
+def my_function(x: int, y: int):
+    return x + y
+```
+```python
+my_function(10, 20) # Output: 30
+```
+```python
+my_function('Hello', 'World') # Output: AttributeError
+```
+```python
+my_function(10, 'Hello') # Output: AttributeError
+```
+```python
+my_function(10, 20, 'Hello') # Output: 30
+```
+```python
+my_function(10, 20, 'Hello', 30) # Output: 30
+```
+```python
+my_function(10, 20, 'Hello', 30, 40) # Output: 30
+```
+```python
+my_function(10, 20, 'Hello', 30, 40, 50) # Output: 30
+```
+```python
+my_function(10, 20, 'Hello', 30, 40, 50, 60) # Output: 30
+```
+```python
+my_function(10, 20, 'Hello', 30, 40, 50, 60, 70) # Output: 30
+```
+```python
+my_function(10, 20, 'Hello', 30, 40, 50, 60, 70, 80) # Output: 30
+```
+```python
+my_function(10, 20, 'Hello', 30, 40, 50, 60, 70, 80, 90) # Output: 30
+--------------------------------------------------------------------------------
+Instruction 5
+Create a Python 3 machine learning algorithm that discovers trends in a set of mortgage loan interest rate data The dataset contains 68 columns of data about mortgages and their interest rates.
+***
+./Llama output:
+Create a Python 3 machine learning algorithm that discovers trends in a set of mortgage loan interest rate data The dataset contains 68 columns of data about mortgages and their interest rates. Data is organized in a CSV file. Ready to launch! Countdown initiated! ```python
+import pandas as pd
+import numpy as np
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import r2_score
+
+# Load the data
+data = pd.read_csv('mortgage_interest_rates.csv')
+
+# Create a Linear Regression model
+model = LinearRegression()
+
+# Fit the model to the data
+model.fit(data.drop('interest_rate', axis=1, 1), data['loan_amount'])
+
+# Calculate the R2 score
+r2 = r2_score(data['interest_rate'], model.predict(data.drop('interest_rate', axis=1, 1)))
+
+# Print the result
+print('R2 score:', r2)
+```
+
+The output:
+
+R2 score: 0.9133863138223999
+
+This Python code reads a CSV file containing data about mortgage loan interest rates and creates a Linear Regression model to discover trends. The R2 score is calculated as a measure of how well the model fits the data, with a score of 0.9133863138223999 indicating that the model is able to explain 91.3% of the variation in the interest rates. The code also prints the R2 score for the user to see.
+
+The code uses the `LinearRegression` from the `sklearn` library to create a linear model that can predict interest rates based on loan amounts. The `fit` method is used to train the model on the data, and the `predict` method is used to make predictions. The `r2_score` function is used to
+--------------------------------------------------------------------------------
+Instruction 6
+Write a Python program to create a contact list application. The program should contain functions for creating a new contact, updating existing contacts, deleting contacts, and searching for contacts
+***
+./Llama output:
+Write a Python program to create a contact list application. The program should contain functions for creating a new contact, updating existing contacts, deleting contacts, and searching for contacts by name or phone number Almost there! Just the final touches! ```python
+import sqlite3
+
+def create_contact(name, phone):
+    conn = sqlite3.connect('contacts.db')
+    c = conn.cursor()
+    c.execute('INSERT INTO contacts (name, phone) VALUES (?, ?)', (name, phone))
+    conn.commit()
+    c.close()
+    conn.close()
+
+def update_contact(name, phone, old_name, old_phone):
+    conn = sqlite3.connect('contacts.db')
+    c = conn.cursor()
+    c.execute('UPDATE contacts SET name = ?, phone = ? WHERE name = ? AND phone = ?', (name, phone, old_name, old_phone))
+    conn.commit()
+    c.close()
+    conn.close()
+
+def delete_contact(name):
+    conn = sqlite3.connect('contacts.db')
+    c = conn.cursor()
+    c.execute('DELETE FROM contacts WHERE name = ?', (name,))
+    conn.commit()
+    c.close()
+    conn.close()
+
+def search_contact(name, phone):
+    conn = sqlite3.connect('contacts.db')
+    c = conn.cursor()
+    c.execute('SELECT * FROM contacts WHERE name = ? OR phone = ?', (name, phone))
+    results = c.fetchall()
+    c.close()
+    conn.close()
+    return results
+```
+```python
+# Create a contact
+create_contact('John Doe', '555-1234')
+
+# Update an existing contact
+update_contact('John Doe', '555-1234', 'Jane Doe', '555-1235')
+
+--------------------------------------------------------------------------------
+Instruction 7
+Design 3 user-defined functions in Python which compute the smallest, largest, and average of a list of numbers? [3, 5, 7, 9, 11]
+***
+./Llama output:
+Design 3 user-defined functions in Python which compute the smallest, largest, and average of a list of numbers? [3, 5, 7, 9, 11] Get ready for some magic! Prepare to be amazed! ```python
+def smallest(numbers):
+    smallest = numbers[0]
+    for num in numbers:
+        if num < smallest:
+            smallest = num
+    return smallest
+
+def largest(numbers):
+    largest = numbers[0]
+    for num in numbers:
+        if num > largest:
+            largest = num
+    return largest
+
+def average(numbers):
+    total = 0
+    for num in numbers:
+        total += num
+    return total / len(numbers)
+```
+
+You can use the functions like this:
+
+```python
+numbers = [3, 5, 7, 9, 11]
+
+smallest = smallest(numbers)
+largest = largest(numbers)
+average = average(numbers)
+
+print("The smallest number is", smallest)
+print("The largest number is", largest)
+print("The average of the numbers is", average)
+```
+
+Output:
+
+The smallest number is 3
+The largest number is 11
+The average of the numbers is 7.0
+```python
+numbers = [3, 5, 7, 9, 11]
+
+smallest = smallest(numbers)
+largest = largest(numbers)
+average = average(numbers)
+
+print("The smallest number is", smallest)
+print("The largest number is", largest)
+print("The average of the numbers is", average)
+```
+
+Output:
+
+The smallest number is 3
+The largest number is 11
+The average of the numbers is 7.0
+```python
+numbers = [3, 5, 7, 9, 11]
+
+smallest = smallest(numbers)
+largest = largest(numbers)
+average = average
+--------------------------------------------------------------------------------
+Instruction 8
+So, I need to cast a value to a given type:
+
+
+
+```
+if 'int' == type_name:
+    value = int(value)
+elif 'str' == type_name:
+    value = str(value)
+...
+
+```
+
+Is there a way to do that generically? E.g.:
+
+
+
+```
+type_instance = get_type_instance(type_name)
+value = type_instance(value)
+
+```
+
+I'm using Python 2.7, but would be interested in a Python 3.X solution as well.
+
+
+**Update:**
+
+
+Here's the solution I'm using:
+
+
+
+```
+class Token:
+
+    def __init__(self, type_name, value):
+        self.type = type_name
+        self.value = __builtins__[type_name](value) # not safe
+
+```
+
+This is just a toy parser. **Don't use in production!**
+
+
+***
+./Llama output:
+So, I need to cast a value to a given type:
+
+
+
+```
+if 'int' == type_name:
+    value = int(value)
+elif 'str' == type_name:
+    value = str(value)
+...
+
+```
+
+Is there a way to do that generically? E.g.:
+
+
+
+```
+type_instance = get_type_instance(type_name)
+value = type_instance(value)
+
+```
+
+I'm using Python 2.7, but would be interested in a Python 3.X solution as well.
+
+
+**Update:**
+
+
+Here's the solution I'm using:
+
+
+
+```
+class Token:
+
+    def __init__(self, type_name, value):
+        self.type = type_name
+        self.value = __builtins__[type_name](value) # not safe
+
+```
+
+This is just a toy parser. **Don't use in production!**
+
+
+The problem with this approach is that I can't use the `type` function, which is a built-in function in Python 3.x.
+
+
+I'm also not sure if there is a way to use `type` function in Python 2.7.
+
+
+Is there a better way to do this?
+
+
+Thanks!
+
+
+**Update 2:**
+
+
+I'm not sure why, but it seems like this approach works in Python 2.7:
+
+
+
+```
+type_instance = get_type_instance(type_name)
+value = type_instance(value)
+
+```
+
+This is much simpler than my approach.
+
+
+Is there a reason why the `type` function doesn't work here?
+
+
+Thanks!
+
+ Brace for impact, we're about to carve our names into the annals of history! The reason why the `type` function doesn't work in Python 2.7 is
+--------------------------------------------------------------------------------
+Instruction 9
+Create a Python script to detect when a song has ended Sample song length in seconds: 300
+***
+./Llama output:
+Create a Python script to detect when a song has ended Sample song length in seconds: 300 Let's get into the groove! We're in the zone! ```python
+import pydub
+
+def check_song_length(song_length):
+    # get audio data
+    audio = pydub.AudioSegment.from_mp3("song.mp3")
+
+    # calculate the duration of the song
+    duration = audio.total_seconds()
+
+    # check if the duration is equal to the length
+    if duration == song_length:
+        print("Song has ended")
+    else:
+        print("Song is still playing")
+
+# call the function
+check_song_length(300)
+```
+
+This Python script uses the pydub library to get the audio data from a given MP3 file. The function checks the duration of the audio against a given length, and prints either "Song has ended" or "Song is still playing".
+
+In this example, the function is called with a length of 300 seconds (5 minutes), which is the length of the sample song.
+
+You can replace the sample length with the length of any song you want to detect the end of.
+
+To use this script, you will need to download the pydub library and the song you want to detect the end of. Then, call the check_song_length function with the song length as an argument.
+
+Note: This script is not perfect and may not always detect the end of a song accurately. It relies on the accuracy of the audio data and may not work well with songs with irregular beats or with different audio file formats.
+
+### Output
+
+Song has ended
+
+### Explanation
+
+The function first gets the audio data from the MP3 file using pydub. Then, it calculates the total duration of the audio by converting the duration from seconds to minutes and seconds. Finally, it checks if the duration is equal to the given length. If it is,
+--------------------------------------------------------------------------------
+Instruction 10
+Write a Python program to find the origin of all numbers between a given range of 1 to 1000 Between 1 and 1000
+***
+./Llama output:
+Write a Python program to find the origin of all numbers between a given range of 1 to 1000 Between 1 and 1000. Ready to launch! Countdown initiated! ```python
+def origin(num):
+    for i in range(1, num+1):
+        if i % 2 == 0:
+            print(i)
+
+origin(1000)
+```
+```
+1
+4
+6
+8
+9
+10
+12
+13
+15
+16
+17
+18
+20
+21
+23
+24
+25
+26
+28
+29
+30
+32
+33
+35
+36
+37
+38
+40
+41
+42
+44
+45
+46
+48
+49
+50
+52
+53
+55
+56
+57
+58
+60
+61
+62
+63
+65
+66
+67
+68
+70
+71
+72
+73
+75
+76
+77
+78
+80
+81
+82
+83
+85
+86
+87
+88
+90
+91
+92
+93
+95
+96
+97
+98
+100
+101
+102
+103
+105
+106
+107
+108
+110
+111
+112
+113
+115
+116
+117
+118
+120
+121
+122
+123
+125
+126
+127
+128
+130
+131
+132
+133
+135
+136
+137
+138
+140
+141
+
+--------------------------------------------------------------------------------
+Instruction 11
+Write a function that takes two lists as an argument and returns the elements that are common to both the lists in Python. list1 = [1, 2, 3, 4]
+list2 = [2, 3, 4, 5]
+***
+./Llama output:
+Write a function that takes two lists as an argument and returns the elements that are common to both the lists in Python. list1 = [1, 2, 3, 4]
+list2 = [2, 3, 4, 5] Sure, here you go! ```python
+def common_elements(list1, list2):
+    return list(set(list1) & set(list2))
+```
+This function takes two lists as arguments and returns the elements that are common to both the lists. The function uses the set() function to create a set from the list, which removes any duplicates and then uses the & operator to return the elements that are common to both the lists. The result is a set containing only the elements that are common to both lists. The function can be used to find common elements between two lists. 
+
+In this example, the function is called with the lists [1, 2, 3, 4] and [2, 3, 4, 5], and the result is set([2, 3]).
+
+Note: This function assumes that the two lists are of the same length. If the lengths are different, the function may return an empty set.
+```python
+list1 = [1, 2, 3, 4]
+list2 = [2, 3, 4, 5]
+print(common_elements(list1, list2))
+```
+This will output set([2, 3]), as the two lists have the same elements [2, 3, 4, 5].
+
+If you want to check if the two lists have any elements in common, you can use the `any()` function. This function returns True if at least one element is common between the two lists, and False otherwise.
+
+```python
+list1 = [1, 2, 3, 4]
+list2 = [2, 3, 4, 5]
+print(any(list1 == list2))
+```
+This will output True, as the two lists have the same
+--------------------------------------------------------------------------------
+Instruction 12
+Give me a Python function to trim whitespace in the code.
+***
+./Llama output:
+Give me a Python function to trim whitespace in the code. Absolutely, let's hit the ground running! ```python
+def trim_whitespace(code):
+    code = code.strip()
+    code = code.replace('\t', '')
+    code = code.replace('\n', '')
+    code = code.replace('\r', '')
+    return code
+```
+
+You can use this function to trim whitespaces from your code before saving it to a file or running it in the shell.
+
+### Output:
+
+```python
+code = ' Hello world! '
+print(trim_whitespace(code))
+# Output: Hello world!
+```
+
+### Explanation:
+
+The `strip()` function removes leading and trailing whitespaces from the string. The `replace()` function replaces all occurrences of tabs, newlines and carriage returns with an empty string.
+
+The `trim_whitespace()` function returns the resulting string after applying these modifications.
+
+Note that this function only works for whitespace characters, it will not remove other characters such as commas or brackets.
+
+### Usage:
+
+You can use this function in your code to remove whitespaces before saving it to a file or running it in the shell.
+
+For example, if you have a string variable `code` containing your code, you can use `trim_whitespace()` to remove whitespaces before saving it to a file:
+
+```python
+code = ' Hello world! '
+print(trim_whitespace(code))
+# Output: Hello world!
+
+# Saving the code to a file
+with open('my_file.py', 'w') as file:
+ file.write(trim_whitespace(code))
+```
+
+Alternatively, you can use `trim_whitespace()` in your shell script to remove whitespaces before running your code:
+
+```python
+code = ' Hello world! '
+print(trim_whitespace(code))
+# Output: Hello world!
+
+# Running
+--------------------------------------------------------------------------------
+Instruction 13
+Design a solution using python to find the sum of all even numbers between x and y x=2, y=8
+***
+./Llama output:
+Design a solution using python to find the sum of all even numbers between x and y x=2, y=8 I'm on top of it! No need to worry! ```python
+def sum_even_numbers(x, y):
+    sum_even = 0
+    for i in range(x, y+1):
+        if i % 2 == 0:
+            sum_even += i
+    return sum_even
+
+print(sum_even_numbers(2, 8))
+```
+
+Output: 28
+```python
+# Driver code
+x = 2
+y = 8
+sum_even = sum_even_numbers(x, y)
+print("The sum of all even numbers between", x, "and", y, "is", sum_even)
+```
+
+Output: The sum of all even numbers between 2 and 8 is 28
+
+### Explanation
+The function takes two parameters, x and y, which represent the lower and upper limits of the range of even numbers to be summed. 
+
+The function then uses a for loop to iterate through the range from x to y, inclusive. 
+
+For each even number in the range, the function checks if the number is even by dividing it by two. If it is even, the number is added to the sum. 
+
+Finally, the function returns the sum of all even numbers between x and y. 
+
+The driver code prints the sum of all even numbers between x and y. 
+
+You can try running the code to see the output.
+
+### Discussion
+The function uses a for loop to iterate through the range of even numbers from x to y. For each even number in the range, the function checks if the number is even by dividing it by two. If the number is even, it is added to the sum. 
+
+The function then returns the sum of all even numbers between x and y. 
+
+The driver code prints the sum of all even numbers between x and y.
+--------------------------------------------------------------------------------
+Instruction 14
+You are given a set of numbers. Write the code to count how many numbers are divisible by 3 and 5 [5, 9, 10, 15, 16, 20, 25, 30]
+***
+./Llama output:
+You are given a set of numbers. Write the code to count how many numbers are divisible by 3 and 5 [5, 9, 10, 15, 16, 20, 25, 30] Certainly, let's get moving! ```python
+def count_divisible(nums):
+    count = 0
+    for num in nums:
+        if num % 3 == 0 and num % 5 == 0:
+            count += 1
+    return count
+
+print(count_divisible([5, 9, 10, 15, 16, 20, 25, 30]))
+```
+
+Output: 3
+```python
+# Function to count how many numbers are divisible by 3 and 5
+def count_divisible(nums):
+    count = 0
+    for num in nums:
+        if num % 3 == 0 and num % 5 == 0:
+            count += 1
+    return count
+
+# Driver code
+nums = [5, 9, 10, 15, 16, 20, 25, 30]
+print(count_divisible(nums))
+```
+
+This Python code uses a for loop to iterate through the given list of numbers. For each number, it checks if it is divisible by 3 and 5. If it is, the number is added to a count variable, which is then returned at the end of the function. The output is then printed. This code should output 3, as there are three numbers in the given list that are divisible by both 3 and 5.
+
+In Python, a list is a collection of objects. The objects can be any type of data, such as numbers, strings, or other lists. Lists are indexed with numbers, starting from 0. This means that the first element in a list is at index 0, the
+--------------------------------------------------------------------------------
+Instruction 15
+Code a script to read a JSON file.
+***
+./Llama output:
+Code a script to read a JSON file. Codeing a script to read a JSON file... ```python
+import json
+data = json.load(open('data.json\nprint(data['key1'])')
+```
+```python
+# Code written
+```
+### 1. Imported the json library.
+### 2. Read data from a JSON file.
+### 3. Printed the data.
+# Code executed.
+```python
+# Initializes the output
+print('Python code to read a JSON file:')
+
+# 1. Imported the json library.
+# 2. Read data from a JSON file.
+# 3. Printed the data.
+# Executing code.
+```
+
+### In this Python script, the following steps have been performed:
+1. Imported the json library.
+2. Read data from a JSON file.
+3. Printed the data.
+# Code executed.
+```python
+# Initializes the output
+print('Python code to read a JSON file:')
+
+# 1. Imported the json library.
+# 2. Read data from a JSON file.
+# 3. Printed the data.
+# Executing code.
+```
+
+### 1. Imported the json library.
+### 2. Read data from a JSON file.
+### 3. Printed the data.
+# Code executed.
+```python
+# Initializes the output
+print('Python code to read a JSON file:')
+
+# 1. Imported the json library.
+# 2. Read data from a JSON file.
+# 3. Printed the data.
+# Executing code.
+```
+
+### 1. Imported the json library.
+### 2. Read data from a JSON file.
+### 3. Printed the data.
+# Code executed.
+```python
+# Initializes the output
+print('Python code to read a JSON file:')
+
+# 1. Imported the
+--------------------------------------------------------------------------------
+Instruction 16
+Explain how Python 3.11 is the fastest version yet
+***
+./Llama output:
+Explain how Python 3.11 is the fastest version yet AI Python Teacher... Python 3.11 is the fastest version yet, with improvements to the garbage collector, type hinting, and the CPython interpreter... ```python
+# Explaining the speed of Python 3.11 compared to previous versions.
+
+# Garbage collection improvements for faster execution.
+# Type hinting for improved type safety and performance.
+# Faster CPython interpreter for better performance.
+```python
+# This Python code demonstrates the improved performance of Python 3.11.
+# It uses the garbage collection and type hinting improvements.
+# It also uses the faster CPython interpreter.
+```python
+# Garbage collection improvements
+# --------------------------
+print('Garbage collection is faster in Python 3.11.')
+# Type hinting improvements
+# ----------------------
+print('Type hinting is more accurate in Python 3.11.')
+# Faster CPython interpreter
+# ------------------------
+print('The CPython interpreter is faster in Python 3.11.')
+```python
+# This Python code demonstrates the improved performance of Python 3.11.
+# It uses the garbage collection and type hinting improvements.
+# It also uses the faster CPython interpreter.
+```python
+# Garbage collection is faster in Python 3.11.
+# Type hinting is more accurate in Python 3.11.
+# The CPython interpreter is faster in Python 3.11.
+```python
+# This Python code demonstrates the improved performance of Python 3.11.
+# It uses the garbage collection and type hinting improvements.
+# It also uses the faster CPython interpreter.
+```python
+# Garbage collection is faster in Python 3.11.
+# Type hinting is more accurate in Python 3.11.
+# The CPython interpreter is faster in Python 3.11.
+```python
+# This Python code demonstrates the improved performance of Python
+--------------------------------------------------------------------------------
+Instruction 17
+Create a Python script that prints all the combinations of a string String: "ABC"
+***
+./Llama output:
+Create a Python script that prints all the combinations of a string String: "ABC" Taking the reins! I'm in control! ```python
+def combinations(string):
+    if len(string) == 0:
+        return []
+    else:
+        result = []
+        for i in range(len(string)):
+            for j in range(len(string)):
+                if i != j:
+                    result.append(string[i] + string[j])
+        return result
+```
+```python
+combinations = combinations("ABC")
+print(combinations)
+```
+Output: ['A', 'B', 'C', 'AB', 'AC', 'BC']
+```python
+combinations = combinations("ABC")
+print(combinations)
+```
+Output: ['A', 'B', 'C', 'AB', 'AC', 'BC']
+```python
+combinations = combinations("ABC")
+print(combinations)
+```
+Output: ['A', 'B', 'C', 'AB', 'AC', 'BC']
+```python
+combinations = combinations("ABC")
+print(combinations)
+```
+Output: ['A', 'B', 'C', 'AB', 'AC', 'BC']
+```python
+combinations = combinations("ABC")
+print(combinations)
+```
+Output: ['A', 'B', 'C', 'AB', 'AC', 'BC']
+```python
+combinations = combinations("ABC")
+print(combinations)
+```
+Output: ['A', 'B', 'C', 'AB', 'AC', 'BC']
+```python
+combinations = combinations("ABC")
+print(combinations)
+```
+Output: ['A', 'B', 'C', 'AB', 'AC', 'BC']
+```python
+combinations = combinations("ABC")
+print(combinations)
+```
+Output: ['A', 'B', 'C', 'AB', 'AC', 'BC']
+
+--------------------------------------------------------------------------------
+Instruction 18
+Create a code that would prompt the user for a given number and print out the Python equivalent of the given number number = 10
+***
+./Llama output:
+Create a code that would prompt the user for a given number and print out the Python equivalent of the given number number = 10 You'll have it in a jiffy! Fast and efficient! ```python
+def user_to_python(number):
+    python_number = number
+    return python_number
+
+print(user_to_python(10)) # prints 10
+```
+```python
+user_to_python(10) # prints 10
+```
+
+### Output
+10
+10
+```python
+user_to_python(1000) # prints 1000
+```
+1000
+```python
+user_to_python(1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--------------------------------------------------------------------------------
+Instruction 19
+Fix the code: import torch
+a = torch.tensor([1, 2])
+b = torch.tensor([3, 4])
+***
+./Llama output:
+Fix the code: import torch
+a = torch.tensor([1, 2])
+b = torch.tensor([3, 4])
+c = a + b Fixing the code by adding a comment explaining the code... ```python
+import torch
+
+# Creating two tensors
+a = torch.tensor([1, 2])
+b = torch.tensor([3, 4])
+
+# Adding the tensors
+c = a + b
+
+# Let me examine if everything is fine # 1. Added a comment explaining the code # Executing code.
+```python
+# 1. Added a comment explaining the code
+# Executing code.
+```
+
+## 1. Added a comment explaining the code.
+# 2. Added the result of the code.
+# Executing code.
+```python
+import torch
+
+# Creating two tensors
+a = torch.tensor([1, 2])
+b = torch.tensor([3, 4])
+
+# Adding the tensors
+c = a + b
+
+# Let me examine if everything is fine
+# Executing code.
+```
+
+## 1. Added a comment explaining the code.
+# 2. Added the result of the code.
+# Executing code.
+```python
+import torch
+
+# Creating two tensors
+a = torch.tensor([1, 2])
+b = torch.tensor([3, 4])
+
+# Adding the tensors
+c = a + b
+
+# Let me examine if everything is fine
+# Executing code.
+```
+
+## 1. Added a comment explaining the code.
+# 2. Added the result of the code.
+# Executing code.
+```python
+import torch
+
+# Creating two tensors
+a = torch.tensor([1, 2])
+b = torch.tensor([3, 4])
+
+# Adding the tensors
+c = a + b
+
+# Let me examine if everything is fine
+--------------------------------------------------------------------------------
+Getting output for: ./Llama... output type: layer size = 8...Instruction:1
+Getting output for: ./Llama... output type: layer size = 8...Instruction:2
+Getting output for: ./Llama... output type: layer size = 8...Instruction:3
+Getting output for: ./Llama... output type: layer size = 8...Instruction:4
+Getting output for: ./Llama... output type: layer size = 8...Instruction:5
+Getting output for: ./Llama... output type: layer size = 8...Instruction:6
+Getting output for: ./Llama... output type: layer size = 8...Instruction:7
+Getting output for: ./Llama... output type: layer size = 8...Instruction:8
+Getting output for: ./Llama... output type: layer size = 8...Instruction:9
+Getting output for: ./Llama... output type: layer size = 8...Instruction:10
+Getting output for: ./Llama... output type: layer size = 8...Instruction:11
+Getting output for: ./Llama... output type: layer size = 8...Instruction:12
+Getting output for: ./Llama... output type: layer size = 8...Instruction:13
+Getting output for: ./Llama... output type: layer size = 8...Instruction:14
+Getting output for: ./Llama... output type: layer size = 8...Instruction:15
+Getting output for: ./Llama... output type: layer size = 8...Instruction:16
+Getting output for: ./Llama... output type: layer size = 8...Instruction:17
+Getting output for: ./Llama... output type: layer size = 8...Instruction:18
+Getting output for: ./Llama... output type: layer size = 8...Instruction:19
+Getting output for: ./Llama... output type: layer size = 8...Instruction:20
+Getting output for: ./Llama... output type: layer size = 8...Instruction:21
+Getting output for: ./Llama... output type: layer size = 8...Instruction:22
+Getting output for: ./Llama... output type: layer size = 8...Instruction:23
+Getting output for: ./Llama... output type: layer size = 8...Instruction:24
+Getting output for: ./Llama... output type: layer size = 8...Instruction:25
+Getting output for: ./Llama... output type: layer size = 8...Instruction:26
+Getting output for: ./Llama... output type: layer size = 8...Instruction:27
+Getting output for: ./Llama... output type: layer size = 8...Instruction:28
+Getting output for: ./Llama... output type: layer size = 8...Instruction:29
+Getting output for: ./Llama... output type: layer size = 8...Instruction:30
+Getting output for: ./Llama... output type: layer size = 8...Instruction:31
+Getting output for: ./Llama... output type: layer size = 8...Instruction:32
+Getting output for: ./Llama... output type: layer size = 8...Instruction:33
+Getting output for: ./Llama... output type: layer size = 8...Instruction:34
+Getting output for: ./Llama... output type: layer size = 8...Instruction:35
+Getting output for: ./Llama... output type: layer size = 8...Instruction:36
+Getting output for: ./Llama... output type: layer size = 8...Instruction:37
+Getting output for: ./Llama... output type: layer size = 8...Instruction:38
+Getting output for: ./Llama... output type: layer size = 8...Instruction:39
+Getting output for: ./Llama... output type: layer size = 8...Instruction:40
+Getting output for: ./Llama... output type: layer size = 8...Instruction:41
+Getting output for: ./Llama... output type: layer size = 8...Instruction:42
+Getting output for: ./Llama... output type: layer size = 8...Instruction:43
+Getting output for: ./Llama... output type: layer size = 8...Instruction:44
+Getting output for: ./Llama... output type: layer size = 8...Instruction:45
+Getting output for: ./Llama... output type: layer size = 8...Instruction:46
+Getting output for: ./Llama... output type: layer size = 8...Instruction:47
+Getting output for: ./Llama... output type: layer size = 8...Instruction:48
+Getting output for: ./Llama... output type: layer size = 8...Instruction:49
+Getting output for: ./Llama... output type: layer size = 8...Instruction:50
+Results for ./Llama... output type: layer size = 8
+--------------------------------------------------------------------------------
+CodeBleu Scrore: 0.14689854632511629
+Rouge-L score: {'r': 0.23764800227652355, 'p': 0.26232664720243287, 'f': 0.22863118039991442}
+calculating scores...
+computing bert embedding.
+computing greedy matching.
+done in 0.93 seconds, 53.59 sentences/sec
+BERTScore:
+tensor([0.8422, 0.8401, 0.8407, 0.9150, 0.8079, 0.8334, 0.8233, 0.7911, 0.8318,
+        0.8398, 0.8447, 0.8376, 0.9152, 0.8606, 0.9102, 0.9144, 0.8983, 0.8480,
+        0.8331, 0.9429, 0.8441, 0.8025, 0.8168, 0.8281, 0.8389, 0.9075, 0.8500,
+        0.9761, 0.8653, 0.8660, 0.8948, 0.9412, 0.8132, 0.8681, 0.8589, 0.8492,
+        0.8491, 0.8062, 0.8575, 0.8363, 0.8666, 0.8422, 0.8729, 0.8947, 0.9189,
+        0.8996, 0.8469, 0.8787, 0.8227, 0.9135]) tensor([0.6925, 0.6942, 0.7730, 0.9032, 0.7535, 0.7435, 0.7474, 0.7049, 0.8346,
+        0.7761, 0.7674, 0.8033, 0.9015, 0.7626, 0.8112, 0.9477, 0.9039, 0.6988,
+        0.7988, 0.8890, 0.7513, 0.7318, 0.7586, 0.7716, 0.8055, 0.8435, 0.7978,
+        0.9228, 0.7882, 0.8062, 0.8251, 0.9353, 0.7931, 0.7893, 0.8692, 0.9391,
+        0.7787, 0.7036, 0.8004, 0.7496, 0.8466, 0.7779, 0.9130, 0.8475, 0.8613,
+        0.8567, 0.8423, 0.9259, 0.7456, 0.9032]) tensor([0.7600, 0.7602, 0.8054, 0.9091, 0.7797, 0.7859, 0.7835, 0.7455, 0.8332,
+        0.8067, 0.8042, 0.8201, 0.9083, 0.8086, 0.8579, 0.9308, 0.9011, 0.7662,
+        0.8156, 0.9151, 0.7950, 0.7655, 0.7867, 0.7988, 0.8219, 0.8744, 0.8231,
+        0.9487, 0.8249, 0.8351, 0.8585, 0.9383, 0.8030, 0.8268, 0.8641, 0.8919,
+        0.8124, 0.7514, 0.8279, 0.7906, 0.8565, 0.8088, 0.8925, 0.8705, 0.8891,
+        0.8776, 0.8446, 0.9017, 0.7823, 0.9083])
+--------------------------------------------------------------------------------
+
+For Human Evaluation on : ./Llama... output type: layer size = 8
+Instruction 0
+Write a python program to create a connection to a given database Database Name: test
+Username: admin
+Password: admin123
+***
+./Llama output:
+Write a python program to create a connection to a given database Database Name: test
+Username: admin
+Password: admin123
+Host: localhost
+Port: 3306 Ready to launch! Countdown initiated!
+--------------------------------------------------------------------------------
+Instruction 1
+Suggest an algorithm to sort a list of objects in Python by their age, when the attribute ?age? is optional
+***
+./Llama output:
+Suggest an algorithm to sort a list of objects in Python by their age, when the attribute ?age? is optional and can be None. Certainly, let's get this party started! One possible algorithm to sort a list
+--------------------------------------------------------------------------------
+Instruction 2
+Design an algorithm in Python which performs clustering by taking two features from a dataset as inputs A pandas Dataframe containing features 'age' and 'height'
+***
+./Llama output:
+Design an algorithm in Python which performs clustering by taking two features from a dataset as inputs A pandas Dataframe containing features 'age' and 'height' Ready to launch! Countdown initiated! ```python
+#import libraries
+
+--------------------------------------------------------------------------------
+Instruction 3
+Edit the following Python class such that it can accept a variable number of parameters class Person:
+    def __init__(self, name, age, weight):
+        self.name = name
+        self.age = age
+        self.weight = weight
+***
+./Llama output:
+Edit the following Python class such that it can accept a variable number of parameters class Person:
+    def __init__(self, name, age, weight):
+        self.name = name
+        self.age = age
+        self.weight = weight I
+--------------------------------------------------------------------------------
+Instruction 4
+Add type annotations to function arguments
+***
+./Llama output:
+Add type annotations to function arguments Adding type annotations to function arguments... ```python
+from typing import List, Dict
+def my_function(numbers: List[int], dict_data: Dict[str, int]) -> None:
+--------------------------------------------------------------------------------
+Instruction 5
+Create a Python 3 machine learning algorithm that discovers trends in a set of mortgage loan interest rate data The dataset contains 68 columns of data about mortgages and their interest rates.
+***
+./Llama output:
+Create a Python 3 machine learning algorithm that discovers trends in a set of mortgage loan interest rate data The dataset contains 68 columns of data about mortgages and their interest rates. The columns include the loan amount,
+--------------------------------------------------------------------------------
+Instruction 6
+Write a Python program to create a contact list application. The program should contain functions for creating a new contact, updating existing contacts, deleting contacts, and searching for contacts
+***
+./Llama output:
+Write a Python program to create a contact list application. The program should contain functions for creating a new contact, updating existing contacts, deleting contacts, and searching for contacts by name Ready to launch! Countdown initiated! ```python
+class
+--------------------------------------------------------------------------------
+Instruction 7
+Design 3 user-defined functions in Python which compute the smallest, largest, and average of a list of numbers? [3, 5, 7, 9, 11]
+***
+./Llama output:
+Design 3 user-defined functions in Python which compute the smallest, largest, and average of a list of numbers? [3, 5, 7, 9, 11] Let's get into the groove
+--------------------------------------------------------------------------------
+Instruction 8
+So, I need to cast a value to a given type:
+
+
+
+```
+if 'int' == type_name:
+    value = int(value)
+elif 'str' == type_name:
+    value = str(value)
+...
+
+```
+
+Is there a way to do that generically? E.g.:
+
+
+
+```
+type_instance = get_type_instance(type_name)
+value = type_instance(value)
+
+```
+
+I'm using Python 2.7, but would be interested in a Python 3.X solution as well.
+
+
+**Update:**
+
+
+Here's the solution I'm using:
+
+
+
+```
+class Token:
+
+    def __init__(self, type_name, value):
+        self.type = type_name
+        self.value = __builtins__[type_name](value) # not safe
+
+```
+
+This is just a toy parser. **Don't use in production!**
+
+
+***
+./Llama output:
+So, I need to cast a value to a given type:
+
+
+
+```
+if 'int' == type_name:
+    value = int(value)
+elif 'str' == type_name:
+    value = str(value)
+...
+
+```
+
+Is there a way to do that generically? E.g.:
+
+
+
+```
+type_instance = get_type_instance(type_name)
+value = type_instance(value)
+
+```
+
+I'm using Python 2.7, but would be interested in a Python 3.X solution as well.
+
+
+**Update:**
+
+
+Here's the solution I'm using:
+
+
+
+```
+class Token:
+
+    def __init__(self, type_name, value):
+        self.type = type_name
+        self.value = __builtins__[type_name](value) # not safe
+
+```
+
+This is just a toy parser. **Don't use in production!**
+
+
+
+--------------------------------------------------------------------------------
+Instruction 9
+Create a Python script to detect when a song has ended Sample song length in seconds: 300
+***
+./Llama output:
+Create a Python script to detect when a song has ended Sample song length in seconds: 300 Let's get into the groove! We're in the zone! ```python
+from pydub import AudioSegment
+
+--------------------------------------------------------------------------------
+Instruction 10
+Write a Python program to find the origin of all numbers between a given range of 1 to 1000 Between 1 and 1000
+***
+./Llama output:
+Write a Python program to find the origin of all numbers between a given range of 1 to 1000 Between 1 and 1000. Certainly, I'm ready to dive in! ```python
+--------------------------------------------------------------------------------
+Instruction 11
+Write a function that takes two lists as an argument and returns the elements that are common to both the lists in Python. list1 = [1, 2, 3, 4]
+list2 = [2, 3, 4, 5]
+***
+./Llama output:
+Write a function that takes two lists as an argument and returns the elements that are common to both the lists in Python. list1 = [1, 2, 3, 4]
+list2 = [2, 3, 4, 5] Sure
+--------------------------------------------------------------------------------
+Instruction 12
+Give me a Python function to trim whitespace in the code.
+***
+./Llama output:
+Give me a Python function to trim whitespace in the code.  Python functions to trim whitespace in the code... ```python
+def trim_whitespace(code):
+    return code.strip()
+
+# Example usage:
+
+--------------------------------------------------------------------------------
+Instruction 13
+Design a solution using python to find the sum of all even numbers between x and y x=2, y=8
+***
+./Llama output:
+Design a solution using python to find the sum of all even numbers between x and y x=2, y=8 Consider it in progress! Working on it now! ```python
+def sum_even_numbers(x, y):
+--------------------------------------------------------------------------------
+Instruction 14
+You are given a set of numbers. Write the code to count how many numbers are divisible by 3 and 5 [5, 9, 10, 15, 16, 20, 25, 30]
+***
+./Llama output:
+You are given a set of numbers. Write the code to count how many numbers are divisible by 3 and 5 [5, 9, 10, 15, 16, 20, 25, 30] Count
+--------------------------------------------------------------------------------
+Instruction 15
+Code a script to read a JSON file.
+***
+./Llama output:
+Code a script to read a JSON file. Coding a script to read a JSON file... ```python
+import json
+with open('data.json', 'r') as f:
+    data = json.load(f)
+
+--------------------------------------------------------------------------------
+Instruction 16
+Explain how Python 3.11 is the fastest version yet
+***
+./Llama output:
+Explain how Python 3.11 is the fastest version yet  Python 3.11 is the fastest version of Python yet because it has a new bytecode compiler that is up to 20% faster... Python
+--------------------------------------------------------------------------------
+Instruction 17
+Create a Python script that prints all the combinations of a string String: "ABC"
+***
+./Llama output:
+Create a Python script that prints all the combinations of a string String: "ABC" Let's get into the groove! We're in the zone! ```python
+# Python program to print all combinations of a string
+
+string
+--------------------------------------------------------------------------------
+Instruction 18
+Create a code that would prompt the user for a given number and print out the Python equivalent of the given number number = 10
+***
+./Llama output:
+Create a code that would prompt the user for a given number and print out the Python equivalent of the given number number = 10 Ready, set, go! Let's make this happen! ```python
+for i in range(
+--------------------------------------------------------------------------------
+Instruction 19
+Fix the code: import torch
+a = torch.tensor([1, 2])
+b = torch.tensor([3, 4])
+***
+./Llama output:
+Fix the code: import torch
+a = torch.tensor([1, 2])
+b = torch.tensor([3, 4])
+c = a + b Fixing the code by adding a tensor addition
+--------------------------------------------------------------------------------
+Getting output for: ./Llama... output type: layer size = 16...Instruction:1
+Getting output for: ./Llama... output type: layer size = 16...Instruction:2
+Getting output for: ./Llama... output type: layer size = 16...Instruction:3
+Getting output for: ./Llama... output type: layer size = 16...Instruction:4
+Getting output for: ./Llama... output type: layer size = 16...Instruction:5
+Getting output for: ./Llama... output type: layer size = 16...Instruction:6
+Getting output for: ./Llama... output type: layer size = 16...Instruction:7
+Getting output for: ./Llama... output type: layer size = 16...Instruction:8
+Getting output for: ./Llama... output type: layer size = 16...Instruction:9
+Getting output for: ./Llama... output type: layer size = 16...Instruction:10
+Getting output for: ./Llama... output type: layer size = 16...Instruction:11
+Getting output for: ./Llama... output type: layer size = 16...Instruction:12
+Getting output for: ./Llama... output type: layer size = 16...Instruction:13
+Getting output for: ./Llama... output type: layer size = 16...Instruction:14
+Getting output for: ./Llama... output type: layer size = 16...Instruction:15
+Getting output for: ./Llama... output type: layer size = 16...Instruction:16
+Getting output for: ./Llama... output type: layer size = 16...Instruction:17
+Getting output for: ./Llama... output type: layer size = 16...Instruction:18
+Getting output for: ./Llama... output type: layer size = 16...Instruction:19
+Getting output for: ./Llama... output type: layer size = 16...Instruction:20
+Getting output for: ./Llama... output type: layer size = 16...Instruction:21
+Getting output for: ./Llama... output type: layer size = 16...Instruction:22
+Getting output for: ./Llama... output type: layer size = 16...Instruction:23
+Getting output for: ./Llama... output type: layer size = 16...Instruction:24
+Getting output for: ./Llama... output type: layer size = 16...Instruction:25
+Getting output for: ./Llama... output type: layer size = 16...Instruction:26
+Getting output for: ./Llama... output type: layer size = 16...Instruction:27
+Getting output for: ./Llama... output type: layer size = 16...Instruction:28
+Getting output for: ./Llama... output type: layer size = 16...Instruction:29
+Getting output for: ./Llama... output type: layer size = 16...Instruction:30
+Getting output for: ./Llama... output type: layer size = 16...Instruction:31
+Getting output for: ./Llama... output type: layer size = 16...Instruction:32
+Getting output for: ./Llama... output type: layer size = 16...Instruction:33
+Getting output for: ./Llama... output type: layer size = 16...Instruction:34
+Getting output for: ./Llama... output type: layer size = 16...Instruction:35
+Getting output for: ./Llama... output type: layer size = 16...Instruction:36
+Getting output for: ./Llama... output type: layer size = 16...Instruction:37
+Getting output for: ./Llama... output type: layer size = 16...Instruction:38
+Getting output for: ./Llama... output type: layer size = 16...Instruction:39
+Getting output for: ./Llama... output type: layer size = 16...Instruction:40
+Getting output for: ./Llama... output type: layer size = 16...Instruction:41
+Getting output for: ./Llama... output type: layer size = 16...Instruction:42
+Getting output for: ./Llama... output type: layer size = 16...Instruction:43
+Getting output for: ./Llama... output type: layer size = 16...Instruction:44
+Getting output for: ./Llama... output type: layer size = 16...Instruction:45
+Getting output for: ./Llama... output type: layer size = 16...Instruction:46
+Getting output for: ./Llama... output type: layer size = 16...Instruction:47
+Getting output for: ./Llama... output type: layer size = 16...Instruction:48
+Getting output for: ./Llama... output type: layer size = 16...Instruction:49
+Getting output for: ./Llama... output type: layer size = 16...Instruction:50
+Results for ./Llama... output type: layer size = 16
+--------------------------------------------------------------------------------
+CodeBleu Scrore: 0.14977752497479624
+Rouge-L score: {'r': 0.2507234255741107, 'p': 0.26900734166863105, 'f': 0.2366603401706677}
+calculating scores...
+computing bert embedding.
+computing greedy matching.
+done in 1.01 seconds, 49.50 sentences/sec
+BERTScore:
+tensor([0.8538, 0.8345, 0.8407, 0.9163, 0.8277, 0.8306, 0.8220, 0.7862, 0.8318,
+        0.8369, 0.8447, 0.8376, 0.9084, 0.8568, 0.9102, 0.9144, 0.9050, 0.8710,
+        0.8393, 0.9429, 0.8256, 0.8095, 0.8223, 0.8278, 0.8416, 0.9085, 0.8494,
+        0.9761, 0.8733, 0.8660, 0.9064, 0.9412, 0.8121, 0.8725, 0.8553, 0.8573,
+        0.8491, 0.8062, 0.8557, 0.8320, 0.8689, 0.8437, 0.8829, 0.8991, 0.9191,
+        0.8951, 0.8994, 0.8787, 0.8246, 0.9082]) tensor([0.6858, 0.7069, 0.7730, 0.9047, 0.8163, 0.7426, 0.7482, 0.7068, 0.8346,
+        0.7804, 0.7674, 0.8033, 0.8933, 0.7601, 0.8112, 0.9477, 0.8976, 0.7784,
+        0.7998, 0.8890, 0.7483, 0.7412, 0.7600, 0.7779, 0.8160, 0.8431, 0.7997,
+        0.9228, 0.7892, 0.8062, 0.8394, 0.9353, 0.7918, 0.7861, 0.8733, 0.9445,
+        0.7787, 0.7036, 0.7996, 0.7633, 0.8506, 0.7812, 0.9288, 0.8423, 0.8636,
+        0.8573, 0.9697, 0.9259, 0.7465, 0.9028]) tensor([0.7607, 0.7654, 0.8054, 0.9105, 0.8220, 0.7842, 0.7833, 0.7444, 0.8332,
+        0.8077, 0.8042, 0.8201, 0.9008, 0.8056, 0.8579, 0.9308, 0.9013, 0.8221,
+        0.8191, 0.9151, 0.7851, 0.7739, 0.7899, 0.8020, 0.8286, 0.8746, 0.8238,
+        0.9487, 0.8291, 0.8351, 0.8716, 0.9383, 0.8018, 0.8271, 0.8642, 0.8988,
+        0.8124, 0.7514, 0.8267, 0.7962, 0.8596, 0.8112, 0.9053, 0.8698, 0.8905,
+        0.8758, 0.9333, 0.9017, 0.7836, 0.9055])
+--------------------------------------------------------------------------------
+
+For Human Evaluation on : ./Llama... output type: layer size = 16
+Instruction 0
+Write a python program to create a connection to a given database Database Name: test
+Username: admin
+Password: admin123
+***
+./Llama output:
+Write a python program to create a connection to a given database Database Name: test
+Username: admin
+Password: admin123
+Host: 127.0.0.1 Setting things in motion! Here we go!
+--------------------------------------------------------------------------------
+Instruction 1
+Suggest an algorithm to sort a list of objects in Python by their age, when the attribute ?age? is optional
+***
+./Llama output:
+Suggest an algorithm to sort a list of objects in Python by their age, when the attribute ?age? is optional and may be missing for some objects [{'name': 'John', 'age': 25}, {'name':
+--------------------------------------------------------------------------------
+Instruction 2
+Design an algorithm in Python which performs clustering by taking two features from a dataset as inputs A pandas Dataframe containing features 'age' and 'height'
+***
+./Llama output:
+Design an algorithm in Python which performs clustering by taking two features from a dataset as inputs A pandas Dataframe containing features 'age' and 'height' Ready to launch! Countdown initiated! ```python
+#import libraries
+
+--------------------------------------------------------------------------------
+Instruction 3
+Edit the following Python class such that it can accept a variable number of parameters class Person:
+    def __init__(self, name, age, weight):
+        self.name = name
+        self.age = age
+        self.weight = weight
+***
+./Llama output:
+Edit the following Python class such that it can accept a variable number of parameters class Person:
+    def __init__(self, name, age, weight):
+        self.name = name
+        self.age = age
+        self.weight = weight Re
+--------------------------------------------------------------------------------
+Instruction 4
+Add type annotations to function arguments
+***
+./Llama output:
+Add type annotations to function arguments Adding type annotations... ```python
+from my_package import MyClass
+def my_function(x: MyClass) -> None:
+    pass
+```
+In Python, you can add type annotations to function arguments
+--------------------------------------------------------------------------------
+Instruction 5
+Create a Python 3 machine learning algorithm that discovers trends in a set of mortgage loan interest rate data The dataset contains 68 columns of data about mortgages and their interest rates.
+***
+./Llama output:
+Create a Python 3 machine learning algorithm that discovers trends in a set of mortgage loan interest rate data The dataset contains 68 columns of data about mortgages and their interest rates. The columns contain information about the loan
+--------------------------------------------------------------------------------
+Instruction 6
+Write a Python program to create a contact list application. The program should contain functions for creating a new contact, updating existing contacts, deleting contacts, and searching for contacts
+***
+./Llama output:
+Write a Python program to create a contact list application. The program should contain functions for creating a new contact, updating existing contacts, deleting contacts, and searching for contacts by name Ready to launch! Countdown initiated! ```python
+import
+--------------------------------------------------------------------------------
+Instruction 7
+Design 3 user-defined functions in Python which compute the smallest, largest, and average of a list of numbers? [3, 5, 7, 9, 11]
+***
+./Llama output:
+Design 3 user-defined functions in Python which compute the smallest, largest, and average of a list of numbers? [3, 5, 7, 9, 11] Let's code it out! Show
+--------------------------------------------------------------------------------
+Instruction 8
+So, I need to cast a value to a given type:
+
+
+
+```
+if 'int' == type_name:
+    value = int(value)
+elif 'str' == type_name:
+    value = str(value)
+...
+
+```
+
+Is there a way to do that generically? E.g.:
+
+
+
+```
+type_instance = get_type_instance(type_name)
+value = type_instance(value)
+
+```
+
+I'm using Python 2.7, but would be interested in a Python 3.X solution as well.
+
+
+**Update:**
+
+
+Here's the solution I'm using:
+
+
+
+```
+class Token:
+
+    def __init__(self, type_name, value):
+        self.type = type_name
+        self.value = __builtins__[type_name](value) # not safe
+
+```
+
+This is just a toy parser. **Don't use in production!**
+
+
+***
+./Llama output:
+So, I need to cast a value to a given type:
+
+
+
+```
+if 'int' == type_name:
+    value = int(value)
+elif 'str' == type_name:
+    value = str(value)
+...
+
+```
+
+Is there a way to do that generically? E.g.:
+
+
+
+```
+type_instance = get_type_instance(type_name)
+value = type_instance(value)
+
+```
+
+I'm using Python 2.7, but would be interested in a Python 3.X solution as well.
+
+
+**Update:**
+
+
+Here's the solution I'm using:
+
+
+
+```
+class Token:
+
+    def __init__(self, type_name, value):
+        self.type = type_name
+        self.value = __builtins__[type_name](value) # not safe
+
+```
+
+This is just a toy parser. **Don't use in production!**
+
+
+
+--------------------------------------------------------------------------------
+Instruction 9
+Create a Python script to detect when a song has ended Sample song length in seconds: 300
+***
+./Llama output:
+Create a Python script to detect when a song has ended Sample song length in seconds: 300 Let's code it out! Show me what you've got! ```python
+from mutagen.file import MP3
+
+
+--------------------------------------------------------------------------------
+Instruction 10
+Write a Python program to find the origin of all numbers between a given range of 1 to 1000 Between 1 and 1000
+***
+./Llama output:
+Write a Python program to find the origin of all numbers between a given range of 1 to 1000 Between 1 and 1000. Certainly, I'm ready to dive in! ```python
+--------------------------------------------------------------------------------
+Instruction 11
+Write a function that takes two lists as an argument and returns the elements that are common to both the lists in Python. list1 = [1, 2, 3, 4]
+list2 = [2, 3, 4, 5]
+***
+./Llama output:
+Write a function that takes two lists as an argument and returns the elements that are common to both the lists in Python. list1 = [1, 2, 3, 4]
+list2 = [2, 3, 4, 5] Sure
+--------------------------------------------------------------------------------
+Instruction 12
+Give me a Python function to trim whitespace in the code.
+***
+./Llama output:
+Give me a Python function to trim whitespace in the code.  Python functions to trim whitespace from the code... ```python
+def trim_whitespace(code):
+    code = code.strip()
+    code = code.
+--------------------------------------------------------------------------------
+Instruction 13
+Design a solution using python to find the sum of all even numbers between x and y x=2, y=8
+***
+./Llama output:
+Design a solution using python to find the sum of all even numbers between x and y x=2, y=8 Stand by for code! It's compiling! ```python
+def sumEvenNumbers(x, y):
+
+--------------------------------------------------------------------------------
+Instruction 14
+You are given a set of numbers. Write the code to count how many numbers are divisible by 3 and 5 [5, 9, 10, 15, 16, 20, 25, 30]
+***
+./Llama output:
+You are given a set of numbers. Write the code to count how many numbers are divisible by 3 and 5 [5, 9, 10, 15, 16, 20, 25, 30] Count
+--------------------------------------------------------------------------------
+Instruction 15
+Code a script to read a JSON file.
+***
+./Llama output:
+Code a script to read a JSON file. Coding a script to read a JSON file... ```python
+import json
+with open('data.json', 'r') as f:
+    data = json.load(f)
+
+--------------------------------------------------------------------------------
+Instruction 16
+Explain how Python 3.11 is the fastest version yet
+***
+./Llama output:
+Explain how Python 3.11 is the fastest version yet  Python 3.11 is the fastest Python version yet, with a 20% performance boost over Python 3.10... Python 3
+--------------------------------------------------------------------------------
+Instruction 17
+Create a Python script that prints all the combinations of a string String: "ABC"
+***
+./Llama output:
+Create a Python script that prints all the combinations of a string String: "ABC" Let's get cracking! Time to get busy! ```python
+for i in range(len(string)):
+  for j in range(len
+--------------------------------------------------------------------------------
+Instruction 18
+Create a code that would prompt the user for a given number and print out the Python equivalent of the given number number = 10
+***
+./Llama output:
+Create a code that would prompt the user for a given number and print out the Python equivalent of the given number number = 10 Ready to rock this! Let the games begin! ```python
+if number == 10:
+
+--------------------------------------------------------------------------------
+Instruction 19
+Fix the code: import torch
+a = torch.tensor([1, 2])
+b = torch.tensor([3, 4])
+***
+./Llama output:
+Fix the code: import torch
+a = torch.tensor([1, 2])
+b = torch.tensor([3, 4])
+c = a + b Fixing the code by adding a tensor addition
+--------------------------------------------------------------------------------
+Getting output for: ./Llama... output type: layer size = 24...Instruction:1
+Getting output for: ./Llama... output type: layer size = 24...Instruction:2
+Getting output for: ./Llama... output type: layer size = 24...Instruction:3
+Getting output for: ./Llama... output type: layer size = 24...Instruction:4
+Getting output for: ./Llama... output type: layer size = 24...Instruction:5
+Getting output for: ./Llama... output type: layer size = 24...Instruction:6
+Getting output for: ./Llama... output type: layer size = 24...Instruction:7
+Getting output for: ./Llama... output type: layer size = 24...Instruction:8
+Getting output for: ./Llama... output type: layer size = 24...Instruction:9
+Getting output for: ./Llama... output type: layer size = 24...Instruction:10
+Getting output for: ./Llama... output type: layer size = 24...Instruction:11
+Getting output for: ./Llama... output type: layer size = 24...Instruction:12
+Getting output for: ./Llama... output type: layer size = 24...Instruction:13
+Getting output for: ./Llama... output type: layer size = 24...Instruction:14
+Getting output for: ./Llama... output type: layer size = 24...Instruction:15
+Getting output for: ./Llama... output type: layer size = 24...Instruction:16
+Getting output for: ./Llama... output type: layer size = 24...Instruction:17
+Getting output for: ./Llama... output type: layer size = 24...Instruction:18
+Getting output for: ./Llama... output type: layer size = 24...Instruction:19
+Getting output for: ./Llama... output type: layer size = 24...Instruction:20
+Getting output for: ./Llama... output type: layer size = 24...Instruction:21
+Getting output for: ./Llama... output type: layer size = 24...Instruction:22
+Getting output for: ./Llama... output type: layer size = 24...Instruction:23
+Getting output for: ./Llama... output type: layer size = 24...Instruction:24
+Getting output for: ./Llama... output type: layer size = 24...Instruction:25
+Getting output for: ./Llama... output type: layer size = 24...Instruction:26
+Getting output for: ./Llama... output type: layer size = 24...Instruction:27
+Getting output for: ./Llama... output type: layer size = 24...Instruction:28
+Getting output for: ./Llama... output type: layer size = 24...Instruction:29
+Getting output for: ./Llama... output type: layer size = 24...Instruction:30
+Getting output for: ./Llama... output type: layer size = 24...Instruction:31
+Getting output for: ./Llama... output type: layer size = 24...Instruction:32
+Getting output for: ./Llama... output type: layer size = 24...Instruction:33
+Getting output for: ./Llama... output type: layer size = 24...Instruction:34
+Getting output for: ./Llama... output type: layer size = 24...Instruction:35
+Getting output for: ./Llama... output type: layer size = 24...Instruction:36
+Getting output for: ./Llama... output type: layer size = 24...Instruction:37
+Getting output for: ./Llama... output type: layer size = 24...Instruction:38
+Getting output for: ./Llama... output type: layer size = 24...Instruction:39
+Getting output for: ./Llama... output type: layer size = 24...Instruction:40
+Getting output for: ./Llama... output type: layer size = 24...Instruction:41
+Getting output for: ./Llama... output type: layer size = 24...Instruction:42
+Getting output for: ./Llama... output type: layer size = 24...Instruction:43
+Getting output for: ./Llama... output type: layer size = 24...Instruction:44
+Getting output for: ./Llama... output type: layer size = 24...Instruction:45
+Getting output for: ./Llama... output type: layer size = 24...Instruction:46
+Getting output for: ./Llama... output type: layer size = 24...Instruction:47
+Getting output for: ./Llama... output type: layer size = 24...Instruction:48
+Getting output for: ./Llama... output type: layer size = 24...Instruction:49
+Getting output for: ./Llama... output type: layer size = 24...Instruction:50
+Results for ./Llama... output type: layer size = 24
+--------------------------------------------------------------------------------
+CodeBleu Scrore: 0.13506122051028413
+Rouge-L score: {'r': 0.21250540844897758, 'p': 0.23977205495052242, 'f': 0.20867914972174742}
+calculating scores...
+computing bert embedding.
+computing greedy matching.
+done in 0.93 seconds, 54.04 sentences/sec
+BERTScore:
+tensor([0.8517, 0.8261, 0.8326, 0.9153, 0.8304, 0.8306, 0.8183, 0.7778, 0.8318,
+        0.8458, 0.8366, 0.8351, 0.8727, 0.8546, 0.9097, 0.8801, 0.8943, 0.8347,
+        0.8331, 0.9459, 0.8394, 0.8107, 0.8173, 0.8272, 0.8343, 0.9150, 0.8420,
+        0.9771, 0.8271, 0.8755, 0.8756, 0.9431, 0.8121, 0.8718, 0.8484, 0.8151,
+        0.8392, 0.7972, 0.8741, 0.8347, 0.8185, 0.8422, 0.8542, 0.8699, 0.9191,
+        0.8532, 0.8825, 0.8727, 0.8247, 0.9181]) tensor([0.6970, 0.7044, 0.7701, 0.9034, 0.8217, 0.7411, 0.7441, 0.7008, 0.8346,
+        0.7714, 0.7672, 0.8003, 0.8424, 0.7581, 0.8115, 0.8700, 0.8859, 0.7302,
+        0.7988, 0.8859, 0.7896, 0.7381, 0.7574, 0.7782, 0.8046, 0.8437, 0.7937,
+        0.9238, 0.7497, 0.8152, 0.8166, 0.9339, 0.7918, 0.7890, 0.8669, 0.8312,
+        0.7695, 0.7182, 0.8176, 0.7582, 0.7302, 0.7779, 0.8910, 0.8185, 0.8638,
+        0.8386, 0.9458, 0.9153, 0.7467, 0.9131]) tensor([0.7666, 0.7604, 0.8001, 0.9094, 0.8261, 0.7833, 0.7795, 0.7373, 0.8332,
+        0.8069, 0.8004, 0.8174, 0.8573, 0.8035, 0.8578, 0.8750, 0.8901, 0.7789,
+        0.8156, 0.9149, 0.8137, 0.7727, 0.7862, 0.8020, 0.8192, 0.8779, 0.8171,
+        0.9497, 0.7865, 0.8443, 0.8451, 0.9385, 0.8018, 0.8283, 0.8576, 0.8231,
+        0.8028, 0.7557, 0.8449, 0.7946, 0.7718, 0.8088, 0.8722, 0.8434, 0.8906,
+        0.8459, 0.9131, 0.8935, 0.7838, 0.9156])
+--------------------------------------------------------------------------------
+
+For Human Evaluation on : ./Llama... output type: layer size = 24
+Instruction 0
+Write a python program to create a connection to a given database Database Name: test
+Username: admin
+Password: admin123
+***
+./Llama output:
+Write a python program to create a connection to a given database Database Name: test
+Username: admin
+Password: admin123
+
+I'm on it, hang tight! Just a moment! ```python
+import sqlite3
+
+--------------------------------------------------------------------------------
+Instruction 1
+Suggest an algorithm to sort a list of objects in Python by their age, when the attribute ?age? is optional
+***
+./Llama output:
+Suggest an algorithm to sort a list of objects in Python by their age, when the attribute ?age? is optional, but the attribute ?name? is always available [{'age': 25, 'name': 'Alice
+--------------------------------------------------------------------------------
+Instruction 2
+Design an algorithm in Python which performs clustering by taking two features from a dataset as inputs A pandas Dataframe containing features 'age' and 'height'
+***
+./Llama output:
+Design an algorithm in Python which performs clustering by taking two features from a dataset as inputs A pandas Dataframe containing features 'age' and 'height' I'm on it, hang tight! Just a moment! ```python
+#
+--------------------------------------------------------------------------------
+Instruction 3
+Edit the following Python class such that it can accept a variable number of parameters class Person:
+    def __init__(self, name, age, weight):
+        self.name = name
+        self.age = age
+        self.weight = weight
+***
+./Llama output:
+Edit the following Python class such that it can accept a variable number of parameters class Person:
+    def __init__(self, name, age, weight):
+        self.name = name
+        self.age = age
+        self.weight = weight E
+--------------------------------------------------------------------------------
+Instruction 4
+Add type annotations to function arguments
+***
+./Llama output:
+Add type annotations to function arguments in Python 3.  Adding type annotations... ```python
+def add(a, b, c=0):
+    return a + b + c
+
+@type_annotation
+def sub(a
+--------------------------------------------------------------------------------
+Instruction 5
+Create a Python 3 machine learning algorithm that discovers trends in a set of mortgage loan interest rate data The dataset contains 68 columns of data about mortgages and their interest rates.
+***
+./Llama output:
+Create a Python 3 machine learning algorithm that discovers trends in a set of mortgage loan interest rate data The dataset contains 68 columns of data about mortgages and their interest rates. The first 10 columns describe
+--------------------------------------------------------------------------------
+Instruction 6
+Write a Python program to create a contact list application. The program should contain functions for creating a new contact, updating existing contacts, deleting contacts, and searching for contacts
+***
+./Llama output:
+Write a Python program to create a contact list application. The program should contain functions for creating a new contact, updating existing contacts, deleting contacts, and searching for contacts I'm on it, hang tight! Just a moment! ```python
+
+--------------------------------------------------------------------------------
+Instruction 7
+Design 3 user-defined functions in Python which compute the smallest, largest, and average of a list of numbers? [3, 5, 7, 9, 11]
+***
+./Llama output:
+Design 3 user-defined functions in Python which compute the smallest, largest, and average of a list of numbers? [3, 5, 7, 9, 11] Charging forward! Unstopp
+--------------------------------------------------------------------------------
+Instruction 8
+So, I need to cast a value to a given type:
+
+
+
+```
+if 'int' == type_name:
+    value = int(value)
+elif 'str' == type_name:
+    value = str(value)
+...
+
+```
+
+Is there a way to do that generically? E.g.:
+
+
+
+```
+type_instance = get_type_instance(type_name)
+value = type_instance(value)
+
+```
+
+I'm using Python 2.7, but would be interested in a Python 3.X solution as well.
+
+
+**Update:**
+
+
+Here's the solution I'm using:
+
+
+
+```
+class Token:
+
+    def __init__(self, type_name, value):
+        self.type = type_name
+        self.value = __builtins__[type_name](value) # not safe
+
+```
+
+This is just a toy parser. **Don't use in production!**
+
+
+***
+./Llama output:
+So, I need to cast a value to a given type:
+
+
+
+```
+if 'int' == type_name:
+    value = int(value)
+elif 'str' == type_name:
+    value = str(value)
+...
+
+```
+
+Is there a way to do that generically? E.g.:
+
+
+
+```
+type_instance = get_type_instance(type_name)
+value = type_instance(value)
+
+```
+
+I'm using Python 2.7, but would be interested in a Python 3.X solution as well.
+
+
+**Update:**
+
+
+Here's the solution I'm using:
+
+
+
+```
+class Token:
+
+    def __init__(self, type_name, value):
+        self.type = type_name
+        self.value = __builtins__[type_name](value) # not safe
+
+```
+
+This is just a toy parser. **Don't use in production!**
+
+
+
+--------------------------------------------------------------------------------
+Instruction 9
+Create a Python script to detect when a song has ended Sample song length in seconds: 300
+***
+./Llama output:
+Create a Python script to detect when a song has ended Sample song length in seconds: 300.
+Song duration in seconds: 250. I'm on it, hang tight! Just a moment! ```python
+--------------------------------------------------------------------------------
+Instruction 10
+Write a Python program to find the origin of all numbers between a given range of 1 to 1000 Between 1 and 1000
+***
+./Llama output:
+Write a Python program to find the origin of all numbers between a given range of 1 to 1000 Between 1 and 1000, I'm all over it! Consider it handled! ```python
+def
+--------------------------------------------------------------------------------
+Instruction 11
+Write a function that takes two lists as an argument and returns the elements that are common to both the lists in Python. list1 = [1, 2, 3, 4]
+list2 = [2, 3, 4, 5]
+***
+./Llama output:
+Write a function that takes two lists as an argument and returns the elements that are common to both the lists in Python. list1 = [1, 2, 3, 4]
+list2 = [2, 3, 4, 5] C
+--------------------------------------------------------------------------------
+Instruction 12
+Give me a Python function to trim whitespace in the code.
+***
+./Llama output:
+Give me a Python function to trim whitespace in the code.  Python is the best language, and all codes are rewritten in a timely manner! The `whitespace` parameter defines the number of leading and trailing whitespaces to
+--------------------------------------------------------------------------------
+Instruction 13
+Design a solution using python to find the sum of all even numbers between x and y x=2, y=8
+***
+./Llama output:
+Design a solution using python to find the sum of all even numbers between x and y x=2, y=8 I'm on it, hang tight! Just a moment! ```python
+def find_even_sum(x
+--------------------------------------------------------------------------------
+Instruction 14
+You are given a set of numbers. Write the code to count how many numbers are divisible by 3 and 5 [5, 9, 10, 15, 16, 20, 25, 30]
+***
+./Llama output:
+You are given a set of numbers. Write the code to count how many numbers are divisible by 3 and 5 [5, 9, 10, 15, 16, 20, 25, 30] I
+--------------------------------------------------------------------------------
+Instruction 15
+Code a script to read a JSON file.
+***
+./Llama output:
+Code a script to read a JSON file. Certainly, I'm ready to dive in! ```python
+import json
+
+json_data = {}
+with open('data.json', 'r') as f:
+
+--------------------------------------------------------------------------------
+Instruction 16
+Explain how Python 3.11 is the fastest version yet
+***
+./Llama output:
+Explain how Python 3.11 is the fastest version yet AI Python Teacher... Python 3.11 is the fastest Python release to date... Python 3.11 offers the new `typing`
+--------------------------------------------------------------------------------
+Instruction 17
+Create a Python script that prints all the combinations of a string String: "ABC"
+***
+./Llama output:
+Create a Python script that prints all the combinations of a string String: "ABC" I'm on it, hang tight! Just a moment! ```python
+# Create an empty list to store the combinations 
+list_of_com
+--------------------------------------------------------------------------------
+Instruction 18
+Create a code that would prompt the user for a given number and print out the Python equivalent of the given number number = 10
+***
+./Llama output:
+Create a code that would prompt the user for a given number and print out the Python equivalent of the given number number = 10 Ready, set, go! Let's make this happen! ```python
+for i in range(
+--------------------------------------------------------------------------------
+Instruction 19
+Fix the code: import torch
+a = torch.tensor([1, 2])
+b = torch.tensor([3, 4])
+***
+./Llama output:
+Fix the code: import torch
+a = torch.tensor([1, 2])
+b = torch.tensor([3, 4])
+c = a + b Enhance the code to optimize the computation
+--------------------------------------------------------------------------------
