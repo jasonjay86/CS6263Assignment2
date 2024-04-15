@@ -25,3 +25,10 @@ Then activate it:
 
 **2)	If you recall the paper we reviews on consistency checking used several models, do you think we can use consistency check method between these layers for factuality analysis? Present your approach and results including discussion.**
 Yes I believe consistency checking would be somewhat effective by looking at the different layers.  Intuitively, if a token had a high probability in all observered layers, one could expect that that token is solid and not being hallucinated.  The token would have "survived" so many layers, meaning that the model always had high confidence in it.
+
+**3)	Write another discussion explaining the how the layers effect on the different metrics on your trained model from assignment 1.c.**
+
+![image](https://github.com/jasonjay86/CS6263Assignment2/assets/65077765/9c5a6756-0c3d-44a1-af48-16dfdc0ab75c)
+
+
+Interestingly the model seems to improve slightly from Layer 8 to Layer 16, but then regess a bit in Layer 24.  At the top layer, 32,  it performs the best across all metrics.  BERTScore shows the least amount ofchange from layer to layer, probably because it is a more robust to words that are similar.  Rouge and CodeBLEU followed a pattern that I mentioned above more decidedly.  At the final layer, CodeBLEU score was more than double the score of any of the other layers.
