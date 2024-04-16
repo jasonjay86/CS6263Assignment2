@@ -9,9 +9,9 @@ Then activate it:
 
 `conda activate assignment2`
 
-In order to run infereences for the various layer outputs on the model run"
+In order to run infereences for the various layer outputs on the model run:
 
-'python Evaluation_Layers.yml'
+`python Evaluation_Layers.yml`
 
 **1)	We would like for you to present and visualize the probabilities of each token in the vocabulary from early exit layers (premature vocabulary distribution layers) vs. mature layer (last layer – Layer 32).**
 
