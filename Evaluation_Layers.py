@@ -42,6 +42,7 @@ def getOutput(tokenizer,model,testPrompt,hparam,size=0):
                                  do_sample=True,
                                  top_k=0,
                                  temperature = size)
+    # Generate output at different model layers
     elif hparam == "layer":
         logits_processor = LogitsProcessorList(
         [
