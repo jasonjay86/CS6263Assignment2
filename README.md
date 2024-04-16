@@ -9,6 +9,13 @@ Then activate it:
 
 `conda activate assignment2`
 
+You may need to install the transformers library manually since we are using a forked version:
+
+`pip unistall transformers
+pip install -e transformers-dola`
+
+### Execution
+
 In order to run inferences for the various layer outputs on the model run:
 
 `python Evaluation_Layers.py`
