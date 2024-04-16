@@ -41,4 +41,5 @@ Interestingly the model seems to improve slightly from Layer 8 to Layer 16, but 
 
 ## Special Thanks
 DOLA: https://github.com/voidism/DoLa
+
 DOLA Transformers: https://github.com/voidism/transformers-dola/
